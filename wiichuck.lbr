@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.2.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="167.32283" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="CHUCK">
+<wire x1="0" y1="3" x2="-0.3" y2="3.3" width="0.127" layer="20" curve="90"/>
+<wire x1="-0.3" y1="3.3" x2="-8.45" y2="3.3" width="0.127" layer="20"/>
+<wire x1="-8.45" y1="3.3" x2="-8.45" y2="6.2" width="0.127" layer="20"/>
+<wire x1="-8.45" y1="6.2" x2="-4.85" y2="6.2" width="0.127" layer="20"/>
+<wire x1="-3.75" y1="6.2" x2="0" y2="6.2" width="0.127" layer="20"/>
+<wire x1="0" y1="6.2" x2="0" y2="6.45" width="0.127" layer="20"/>
+<wire x1="0" y1="3" x2="0" y2="-3" width="0.127" layer="20"/>
+<wire x1="0" y1="-3" x2="-0.3" y2="-3.3" width="0.127" layer="20" curve="-90"/>
+<wire x1="-0.3" y1="-3.3" x2="-8.45" y2="-3.3" width="0.127" layer="20"/>
+<wire x1="-8.45" y1="-3.3" x2="-8.45" y2="-6.2" width="0.127" layer="20"/>
+<wire x1="0" y1="-6.2" x2="0" y2="-6.45" width="0.127" layer="20"/>
+<smd name="CLK" x="-4.25" y="2.255" dx="8" dy="1.88" layer="1" roundness="25"/>
+<smd name="GND" x="-4.25" y="-2.255" dx="8" dy="1.88" layer="1" roundness="25"/>
+<smd name="DAT" x="-4.25" y="-2.255" dx="8" dy="1.88" layer="16" roundness="25"/>
+<smd name="ATT" x="-4.25" y="0" dx="8" dy="1.88" layer="16" roundness="25"/>
+<smd name="PWR" x="-4.25" y="2.255" dx="8" dy="1.88" layer="16" roundness="25"/>
+<wire x1="-3.75" y1="6.2" x2="-3.75" y2="7.3" width="0.127" layer="20"/>
+<wire x1="-3.75" y1="7.3" x2="-4.85" y2="7.3" width="0.127" layer="20"/>
+<wire x1="-4.85" y1="7.3" x2="-4.85" y2="6.2" width="0.127" layer="20"/>
+<wire x1="-3.75" y1="-7.3" x2="-3.75" y2="-6.2" width="0.127" layer="20"/>
+<wire x1="-4.85" y1="-6.2" x2="-4.85" y2="-7.3" width="0.127" layer="20"/>
+<wire x1="-4.85" y1="-7.3" x2="-3.75" y2="-7.3" width="0.127" layer="20"/>
+<wire x1="-8.45" y1="-6.2" x2="-4.85" y2="-6.2" width="0.127" layer="20"/>
+<wire x1="-3.75" y1="-6.2" x2="0" y2="-6.2" width="0.127" layer="20"/>
+</package>
+<package name="CHUCK-OUTIE">
+<wire x1="8.45" y1="0" x2="8.45" y2="3" width="0.127" layer="20"/>
+<wire x1="8.45" y1="3" x2="8.15" y2="3.3" width="0.127" layer="20" curve="90"/>
+<wire x1="8.15" y1="3.3" x2="0" y2="3.3" width="0.127" layer="20"/>
+<wire x1="8.45" y1="0" x2="8.45" y2="-3" width="0.127" layer="20"/>
+<wire x1="8.45" y1="-3" x2="8.15" y2="-3.3" width="0.127" layer="20" curve="-90"/>
+<wire x1="8.15" y1="-3.3" x2="0" y2="-3.3" width="0.127" layer="20"/>
+<smd name="CLK" x="4.2" y="2.255" dx="8" dy="1.88" layer="1" roundness="25"/>
+<smd name="GND" x="4.2" y="-2.255" dx="8" dy="1.88" layer="1" roundness="25"/>
+<smd name="DAT" x="4.2" y="-2.255" dx="8" dy="1.88" layer="16" roundness="25"/>
+<smd name="ATT" x="4.2" y="0" dx="8" dy="1.88" layer="16" roundness="25"/>
+<smd name="PWR" x="4.2" y="2.255" dx="8" dy="1.88" layer="16" roundness="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WIICHUCK">
+<pin name="VCC" x="-7.62" y="7.62" length="middle"/>
+<pin name="GND" x="-7.62" y="5.08" length="middle"/>
+<pin name="ATT" x="-7.62" y="2.54" length="middle"/>
+<pin name="SDA" x="-7.62" y="0" length="middle"/>
+<pin name="SCL" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WIICHUCK">
+<gates>
+<gate name="G$1" symbol="WIICHUCK" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CHUCK">
+<connects>
+<connect gate="G$1" pin="ATT" pad="ATT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="CLK"/>
+<connect gate="G$1" pin="SDA" pad="DAT"/>
+<connect gate="G$1" pin="VCC" pad="PWR"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OUTIE" package="CHUCK-OUTIE">
+<connects>
+<connect gate="G$1" pin="ATT" pad="ATT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="CLK"/>
+<connect gate="G$1" pin="SDA" pad="DAT"/>
+<connect gate="G$1" pin="VCC" pad="PWR"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
