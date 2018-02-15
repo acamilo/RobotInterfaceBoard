@@ -1212,8 +1212,8 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="0" y1="3" x2="-0.3" y2="3.3" width="0.127" layer="20" curve="90"/>
 <wire x1="-0.3" y1="3.3" x2="-8.45" y2="3.3" width="0.127" layer="20"/>
 <wire x1="-8.45" y1="3.3" x2="-8.45" y2="6.2" width="0.127" layer="20"/>
-<wire x1="-8.45" y1="6.2" x2="-4.85" y2="6.2" width="0.127" layer="20"/>
-<wire x1="-3.75" y1="6.2" x2="0" y2="6.2" width="0.127" layer="20"/>
+<wire x1="-8.45" y1="6.2" x2="-5.358" y2="6.2" width="0.127" layer="20"/>
+<wire x1="-3.242" y1="6.2" x2="0" y2="6.2" width="0.127" layer="20"/>
 <wire x1="0" y1="6.2" x2="0" y2="6.45" width="0.127" layer="20"/>
 <wire x1="0" y1="3" x2="0" y2="-3" width="0.127" layer="20"/>
 <wire x1="0" y1="-3" x2="-0.3" y2="-3.3" width="0.127" layer="20" curve="-90"/>
@@ -1225,14 +1225,14 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <smd name="DAT" x="-4.25" y="-2.255" dx="8" dy="1.88" layer="16" roundness="25"/>
 <smd name="ATT" x="-4.25" y="0" dx="8" dy="1.88" layer="16" roundness="25"/>
 <smd name="PWR" x="-4.25" y="2.255" dx="8" dy="1.88" layer="16" roundness="25"/>
-<wire x1="-3.75" y1="6.2" x2="-3.75" y2="7.3" width="0.127" layer="20"/>
-<wire x1="-3.75" y1="7.3" x2="-4.85" y2="7.3" width="0.127" layer="20"/>
-<wire x1="-4.85" y1="7.3" x2="-4.85" y2="6.2" width="0.127" layer="20"/>
-<wire x1="-3.75" y1="-7.3" x2="-3.75" y2="-6.2" width="0.127" layer="20"/>
-<wire x1="-4.85" y1="-6.2" x2="-4.85" y2="-7.3" width="0.127" layer="20"/>
-<wire x1="-4.85" y1="-7.3" x2="-3.75" y2="-7.3" width="0.127" layer="20"/>
-<wire x1="-8.45" y1="-6.2" x2="-4.85" y2="-6.2" width="0.127" layer="20"/>
-<wire x1="-3.75" y1="-6.2" x2="0" y2="-6.2" width="0.127" layer="20"/>
+<wire x1="-3.242" y1="6.2" x2="-3.242" y2="7.3" width="0.127" layer="20"/>
+<wire x1="-3.242" y1="7.3" x2="-5.358" y2="7.3" width="0.127" layer="20"/>
+<wire x1="-5.358" y1="7.3" x2="-5.358" y2="6.2" width="0.127" layer="20"/>
+<wire x1="-3.242" y1="-7.3" x2="-3.242" y2="-6.2" width="0.127" layer="20"/>
+<wire x1="-5.358" y1="-6.2" x2="-5.358" y2="-7.3" width="0.127" layer="20"/>
+<wire x1="-5.358" y1="-7.3" x2="-3.242" y2="-7.3" width="0.127" layer="20"/>
+<wire x1="-8.45" y1="-6.2" x2="-5.358" y2="-6.2" width="0.127" layer="20"/>
+<wire x1="-3.242" y1="-6.2" x2="0" y2="-6.2" width="0.127" layer="20"/>
 </package>
 <package name="CHUCK-OUTIE">
 <wire x1="8.45" y1="0" x2="8.45" y2="3" width="0.127" layer="20"/>
