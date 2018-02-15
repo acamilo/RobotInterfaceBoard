@@ -2821,16 +2821,6 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="-30.48" y1="-177.8" x2="-38.1" y2="-177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="JP8" gate="G$1" pin="14"/>
-<pinref part="JP17" gate="G$1" pin="14"/>
-<wire x1="-22.86" y1="-182.88" x2="-30.48" y2="-182.88" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="14"/>
-<junction x="-30.48" y="-182.88"/>
-<wire x1="-30.48" y1="-182.88" x2="-38.1" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RX0" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="15"/>
@@ -3629,20 +3619,20 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="30.48" y1="-180.34" x2="12.7" y2="-180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="18"/>
-<pinref part="JP17" gate="G$1" pin="18"/>
-<wire x1="-22.86" y1="-193.04" x2="-30.48" y2="-193.04" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="18"/>
-<junction x="-30.48" y="-193.04"/>
-<wire x1="-30.48" y1="-193.04" x2="-38.1" y2="-193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP14" gate="A" pin="9"/>
 <pinref part="JP20" gate="A" pin="9"/>
 <wire x1="101.6" y1="-297.18" x2="91.44" y2="-297.18" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="A" pin="9"/>
 <wire x1="91.44" y1="-297.18" x2="81.28" y2="-297.18" width="0.1524" layer="91"/>
 <junction x="91.44" y="-297.18"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="G$1" pin="14"/>
+<pinref part="JP17" gate="G$1" pin="14"/>
+<wire x1="-22.86" y1="-182.88" x2="-30.48" y2="-182.88" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="14"/>
+<junction x="-30.48" y="-182.88"/>
+<wire x1="-30.48" y1="-182.88" x2="-38.1" y2="-182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -4090,6 +4080,16 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="U$2" gate="G$1" pin="C1"/>
 <wire x1="63.5" y1="-71.12" x2="68.58" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="JP17" gate="G$1" pin="18"/>
+<pinref part="JP8" gate="G$1" pin="18"/>
+<wire x1="-22.86" y1="-193.04" x2="-30.48" y2="-193.04" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="18"/>
+<wire x1="-30.48" y1="-193.04" x2="-38.1" y2="-193.04" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-193.04"/>
 </segment>
 </net>
 </nets>
