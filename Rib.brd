@@ -166,7 +166,7 @@
 <wire x1="30.44" y1="3.34" x2="30.44" y2="52.54" width="0.1524" layer="22"/>
 <wire x1="30.44" y1="52.54" x2="0" y2="52.54" width="0.1524" layer="22"/>
 <text x="19.4056" y="51.7906" size="1.778" layer="21" font="vector" ratio="20" rot="R270">Robot Interface Board (RIB)
-BabyBack   Rev 2  Alex Camilo</text>
+BabyBack   Rev 4  Alex Camilo</text>
 <wire x1="-18.415" y1="-0.635" x2="-15.875" y2="-3.175" width="0.1524" layer="20" curve="90"/>
 <wire x1="-15.875" y1="-3.175" x2="-3.81" y2="-3.175" width="0.1524" layer="20"/>
 <wire x1="106.045" y1="-15.875" x2="108.585" y2="-13.335" width="0.1524" layer="20" curve="90"/>
@@ -295,7 +295,7 @@ BabyBack   Rev 2  Alex Camilo</text>
 <wire x1="48.895" y1="0.635" x2="49.53" y2="1.27" width="0.1524" layer="20" curve="-90"/>
 <wire x1="49.53" y1="1.27" x2="50.165" y2="0.635" width="0.1524" layer="20" curve="-90"/>
 <text x="77.8002" y="38.989" size="1.778" layer="21" font="vector" ratio="20" rot="R270">Robot Interface Board (RIB)
-Spare   Rev 2  Alex Camilo</text>
+Spare   Rev 4  Alex Camilo</text>
 <wire x1="48.895" y1="25.4" x2="49.53" y2="26.035" width="0.1524" layer="20" curve="-90"/>
 <wire x1="49.53" y1="26.035" x2="50.165" y2="25.4" width="0.1524" layer="20" curve="-90"/>
 <wire x1="50.165" y1="30.48" x2="49.53" y2="29.845" width="0.1524" layer="20" curve="-90"/>
