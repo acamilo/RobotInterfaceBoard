@@ -328,8 +328,12 @@ Spare   Rev 2  Alex Camilo</text>
 <rectangle x1="6.4262" y1="41.4274" x2="26.4922" y2="51.7906" layer="41"/>
 <rectangle x1="6.4262" y1="41.4274" x2="26.4922" y2="51.7906" layer="42"/>
 <rectangle x1="48.6918" y1="51.9684" x2="50.3428" y2="55.8546" layer="42"/>
+<text x="68.5038" y="71.0946" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">BAT+</text>
+<text x="72.0852" y="71.0946" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">GND</text>
 <text x="46.0248" y="52.8828" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">GND</text>
 <text x="43.434" y="52.8828" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">BAT+</text>
+<text x="-2.7432" y="71.0184" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">BAT+</text>
+<text x="-7.6962" y="70.9422" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">GND</text>
 <text x="21.1836" y="70.3326" size="0.6096" layer="21" font="vector" ratio="20" align="center">WII
 ACCESSORY</text>
 <text x="99.06" y="70.2564" size="0.6096" layer="21" font="vector" ratio="20" align="center">WII
