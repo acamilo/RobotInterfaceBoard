@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3852,16 +3852,6 @@ They will be floating when the esp is plugged in.</text>
 <junction x="132.08" y="-332.74"/>
 </segment>
 </net>
-<net name="N$107" class="0">
-<segment>
-<pinref part="JP9" gate="A" pin="24"/>
-<pinref part="JP21" gate="A" pin="24"/>
-<wire x1="119.38" y1="-335.28" x2="132.08" y2="-335.28" width="0.1524" layer="91"/>
-<pinref part="JP12" gate="A" pin="24"/>
-<wire x1="132.08" y1="-335.28" x2="139.7" y2="-335.28" width="0.1524" layer="91"/>
-<junction x="132.08" y="-335.28"/>
-</segment>
-</net>
 <net name="V3.3" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
@@ -4082,7 +4072,7 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="DET" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="18"/>
 <pinref part="JP8" gate="G$1" pin="18"/>
@@ -4090,6 +4080,25 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="JP7" gate="G$1" pin="18"/>
 <wire x1="-30.48" y1="-193.04" x2="-38.1" y2="-193.04" width="0.1524" layer="91"/>
 <junction x="-30.48" y="-193.04"/>
+<wire x1="-22.86" y1="-193.04" x2="-12.7" y2="-193.04" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-193.04"/>
+<label x="-12.7" y="-193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="ATT"/>
+<wire x1="30.48" y1="-142.24" x2="20.32" y2="-142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="ATT"/>
+<wire x1="30.48" y1="-177.8" x2="20.32" y2="-177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="A" pin="24"/>
+<pinref part="JP21" gate="A" pin="24"/>
+<wire x1="119.38" y1="-335.28" x2="132.08" y2="-335.28" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="A" pin="24"/>
+<wire x1="132.08" y1="-335.28" x2="139.7" y2="-335.28" width="0.1524" layer="91"/>
+<junction x="132.08" y="-335.28"/>
 </segment>
 </net>
 </nets>
