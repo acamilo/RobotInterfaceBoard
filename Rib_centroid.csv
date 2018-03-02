@@ -1,0 +1,16 @@
+Screaming Circuits SMD component position file.,,,,
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.,,,,
+,,,,
+"Centroid Data for pc board: ""Rib.brd"" as of: 3/2/2018 11:31 AM",,,,
+Measurements are in inches. Comma delimited,,,,
+Only surface mount components included,,,,
+,,,,
+RefDes,Layer,LocationX,LocationY,Rotation
+C1,Top,0.305,2.685,90
+C2,Top,0.425,2.685,90
+C3,Top,3.113,2.358,270
+C4,Top,3.004,2.358,270
+F1,Top,0.11,2.19,90
+F2,Top,2.77,2.196,90
+IC1,Top,0.385,2.39,180
+IC2,Top,3.003,2.632,0
