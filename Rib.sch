@@ -67,6 +67,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1385,45 +1387,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SMT_Fuse_0154001">
-<packages>
-<package name="0154">
-<wire x1="-2.552" y1="2.552" x2="-2.552" y2="-2.552" width="0.127" layer="21"/>
-<wire x1="-2.552" y1="-2.552" x2="8.932" y2="-2.552" width="0.127" layer="21"/>
-<wire x1="8.932" y1="-2.552" x2="8.932" y2="2.552" width="0.127" layer="21"/>
-<wire x1="8.932" y1="2.552" x2="-2.552" y2="2.552" width="0.127" layer="21"/>
-<smd name="1" x="0" y="0" dx="4.24" dy="3.81" layer="1"/>
-<smd name="2" x="6.38" y="0" dx="4.24" dy="3.81" layer="1"/>
-<text x="-2.552" y="3.19" size="1.27" layer="21">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="FUSE">
-<text x="-5.08" y="2.54" size="1.27" layer="94">&gt;name</text>
-<rectangle x1="-5.08" y1="-5.08" x2="5.08" y2="0" layer="94"/>
-<pin name="P$1" x="-10.16" y="-2.54" visible="off" length="middle"/>
-<pin name="P$2" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0154">
-<gates>
-<gate name="G$1" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0154">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="GF-126-0327">
 <packages>
 <package name="GF-126-0327">
@@ -2404,6 +2367,46 @@ part number 2062-2P from STA</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="3557-2">
+<packages>
+<package name="3557-2">
+<wire x1="-9.905" y1="3.365" x2="9.905" y2="3.365" width="0.127" layer="21"/>
+<wire x1="9.905" y1="3.365" x2="9.905" y2="-3.365" width="0.127" layer="21"/>
+<wire x1="9.905" y1="-3.365" x2="-9.905" y2="-3.365" width="0.127" layer="21"/>
+<wire x1="-9.905" y1="-3.365" x2="-9.905" y2="3.365" width="0.127" layer="21"/>
+<pad name="P$1" x="6.87" y="0" drill="1.6" shape="long"/>
+<pad name="P$2" x="-6.87" y="0" drill="1.6" shape="long"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FUSE">
+<pin name="P$1" x="-10.16" y="0" length="middle"/>
+<pin name="P$2" x="10.16" y="0" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3557-2" prefix="F">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3557-2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2448,17 +2451,17 @@ part number 2062-2P from STA</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="F1" library="SMT_Fuse_0154001" deviceset="0154" device=""/>
-<part name="F2" library="SMT_Fuse_0154001" deviceset="0154" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP20" library="headers" deviceset="PINHD-1X24" device=""/>
 <part name="JP21" library="headers" deviceset="PINHD-1X24" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="GF-126-0327" deviceset="DPDT" device=""/>
-<part name="U$2" library="GF-126-0327" deviceset="DPDT" device=""/>
+<part name="SW1" library="GF-126-0327" deviceset="DPDT" device=""/>
+<part name="SW2" library="GF-126-0327" deviceset="DPDT" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM_LOCK"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM_LOCK"/>
+<part name="F3" library="3557-2" deviceset="3557-2" device=""/>
+<part name="F4" library="3557-2" deviceset="3557-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2506,17 +2509,17 @@ They will be floating when the esp is plugged in.</text>
 <instance part="GND6" gate="1" x="226.06" y="-121.92"/>
 <instance part="GND7" gate="1" x="238.76" y="-121.92"/>
 <instance part="GND8" gate="1" x="251.46" y="-121.92"/>
-<instance part="F1" gate="G$1" x="30.48" y="-53.34"/>
-<instance part="F2" gate="G$1" x="30.48" y="-68.58"/>
 <instance part="GND9" gate="1" x="71.12" y="-66.04" rot="R180"/>
 <instance part="GND10" gate="1" x="71.12" y="-50.8" rot="R180"/>
 <instance part="JP20" gate="A" x="104.14" y="-304.8"/>
 <instance part="JP21" gate="A" x="121.92" y="-304.8"/>
 <instance part="GND11" gate="1" x="10.16" y="-175.26" rot="R270"/>
-<instance part="U$1" gate="G$1" x="68.58" y="-53.34" rot="R90"/>
-<instance part="U$2" gate="G$1" x="68.58" y="-68.58" rot="R90"/>
+<instance part="SW1" gate="G$1" x="68.58" y="-53.34" rot="R90"/>
+<instance part="SW2" gate="G$1" x="68.58" y="-68.58" rot="R90"/>
 <instance part="J1" gate="G$1" x="86.36" y="-58.42" rot="R180"/>
 <instance part="J2" gate="G$1" x="81.28" y="-73.66" rot="R180"/>
+<instance part="F3" gate="G$1" x="30.48" y="-71.12"/>
+<instance part="F4" gate="G$1" x="30.48" y="-55.88"/>
 </instances>
 <busses>
 </busses>
@@ -3276,14 +3279,14 @@ They will be floating when the esp is plugged in.</text>
 <label x="-33.02" y="-55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="F1" gate="G$1" pin="P$1"/>
 <wire x1="20.32" y1="-55.88" x2="12.7" y2="-55.88" width="0.1524" layer="91"/>
 <label x="12.7" y="-55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="F4" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="F2" gate="G$1" pin="P$1"/>
 <wire x1="20.32" y1="-71.12" x2="12.7" y2="-71.12" width="0.1524" layer="91"/>
 <label x="12.7" y="-71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="F3" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -3394,7 +3397,6 @@ They will be floating when the esp is plugged in.</text>
 </net>
 <net name="LIPORAW" class="0">
 <segment>
-<pinref part="F2" gate="G$1" pin="P$2"/>
 <wire x1="40.64" y1="-71.12" x2="43.18" y2="-71.12" width="0.1524" layer="91"/>
 <label x="45.72" y="-71.12" size="1.27" layer="95" xref="yes"/>
 <wire x1="43.18" y1="-71.12" x2="45.72" y2="-71.12" width="0.1524" layer="91"/>
@@ -3404,19 +3406,19 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="53.34" y1="-76.2" x2="53.34" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-76.2" x2="43.18" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="53.34" y="-76.2"/>
-<pinref part="U$2" gate="G$1" pin="A1"/>
+<pinref part="SW2" gate="G$1" pin="A1"/>
 <wire x1="53.34" y1="-71.12" x2="58.42" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="B1"/>
+<pinref part="SW2" gate="G$1" pin="B1"/>
 <wire x1="58.42" y1="-71.12" x2="60.96" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="58.42" y="-71.12"/>
-<pinref part="U$2" gate="G$1" pin="A2"/>
+<pinref part="SW2" gate="G$1" pin="A2"/>
 <wire x1="53.34" y1="-81.28" x2="58.42" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="B2"/>
+<pinref part="SW2" gate="G$1" pin="B2"/>
 <wire x1="58.42" y1="-81.28" x2="60.96" y2="-81.28" width="0.1524" layer="91"/>
 <junction x="58.42" y="-81.28"/>
+<pinref part="F3" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="F1" gate="G$1" pin="P$2"/>
 <wire x1="40.64" y1="-55.88" x2="43.18" y2="-55.88" width="0.1524" layer="91"/>
 <label x="45.72" y="-55.88" size="1.27" layer="95" xref="yes"/>
 <wire x1="43.18" y1="-55.88" x2="45.72" y2="-55.88" width="0.1524" layer="91"/>
@@ -3426,16 +3428,17 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="55.88" y1="-60.96" x2="55.88" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-60.96" x2="55.88" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="55.88" y="-60.96"/>
-<pinref part="U$1" gate="G$1" pin="B1"/>
-<pinref part="U$1" gate="G$1" pin="A1"/>
+<pinref part="SW1" gate="G$1" pin="B1"/>
+<pinref part="SW1" gate="G$1" pin="A1"/>
 <wire x1="60.96" y1="-55.88" x2="58.42" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-55.88" x2="55.88" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="58.42" y="-55.88"/>
-<pinref part="U$1" gate="G$1" pin="A2"/>
+<pinref part="SW1" gate="G$1" pin="A2"/>
 <wire x1="55.88" y1="-66.04" x2="58.42" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="B2"/>
+<pinref part="SW1" gate="G$1" pin="B2"/>
 <wire x1="58.42" y1="-66.04" x2="60.96" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="58.42" y="-66.04"/>
+<pinref part="F4" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -4052,9 +4055,9 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="66.04" y1="-60.96" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-60.96" x2="66.04" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="66.04" y="-60.96"/>
-<pinref part="U$1" gate="G$1" pin="C2"/>
+<pinref part="SW1" gate="G$1" pin="C2"/>
 <wire x1="66.04" y1="-66.04" x2="63.5" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="C1"/>
+<pinref part="SW1" gate="G$1" pin="C1"/>
 <wire x1="66.04" y1="-55.88" x2="63.5" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
@@ -4065,9 +4068,9 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="68.58" y1="-76.2" x2="68.58" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-76.2" x2="68.58" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="68.58" y="-76.2"/>
-<pinref part="U$2" gate="G$1" pin="C2"/>
+<pinref part="SW2" gate="G$1" pin="C2"/>
 <wire x1="63.5" y1="-81.28" x2="68.58" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="C1"/>
+<pinref part="SW2" gate="G$1" pin="C1"/>
 <wire x1="63.5" y1="-71.12" x2="68.58" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
