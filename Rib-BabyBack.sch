@@ -6229,36 +6229,6 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="55.88" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="-78.74" y1="-152.4" x2="-58.42" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="2"/>
-<junction x="-58.42" y="-152.4"/>
-<wire x1="-58.42" y1="-152.4" x2="-68.58" y2="-152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="3"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="-78.74" y1="-154.94" x2="-58.42" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="3"/>
-<junction x="-58.42" y="-154.94"/>
-<wire x1="-58.42" y1="-154.94" x2="-68.58" y2="-154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="4"/>
-<pinref part="JP3" gate="G$1" pin="4"/>
-<wire x1="-78.74" y1="-157.48" x2="-58.42" y2="-157.48" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="4"/>
-<junction x="-58.42" y="-157.48"/>
-<wire x1="-58.42" y1="-157.48" x2="-68.58" y2="-157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="5"/>
@@ -6287,16 +6257,6 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="JP6" gate="G$1" pin="8"/>
 <junction x="-58.42" y="-167.64"/>
 <wire x1="-58.42" y1="-167.64" x2="-68.58" y2="-167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="9"/>
-<pinref part="JP3" gate="G$1" pin="9"/>
-<wire x1="-78.74" y1="-170.18" x2="-58.42" y2="-170.18" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="9"/>
-<junction x="-58.42" y="-170.18"/>
-<wire x1="-58.42" y1="-170.18" x2="-68.58" y2="-170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -6389,36 +6349,6 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="-58.42" y1="-193.04" x2="-68.58" y2="-193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="JP8" gate="G$1" pin="1"/>
-<pinref part="JP17" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="-149.86" x2="-30.48" y2="-149.86" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
-<junction x="-30.48" y="-149.86"/>
-<wire x1="-30.48" y1="-149.86" x2="-38.1" y2="-149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="JP8" gate="G$1" pin="2"/>
-<pinref part="JP17" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="-152.4" x2="-30.48" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="2"/>
-<junction x="-30.48" y="-152.4"/>
-<wire x1="-30.48" y1="-152.4" x2="-38.1" y2="-152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="JP8" gate="G$1" pin="3"/>
-<pinref part="JP17" gate="G$1" pin="3"/>
-<wire x1="-22.86" y1="-154.94" x2="-30.48" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="3"/>
-<junction x="-30.48" y="-154.94"/>
-<wire x1="-30.48" y1="-154.94" x2="-38.1" y2="-154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="4"/>
@@ -6437,16 +6367,6 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="JP7" gate="G$1" pin="5"/>
 <junction x="-30.48" y="-160.02"/>
 <wire x1="-30.48" y1="-160.02" x2="-38.1" y2="-160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="JP8" gate="G$1" pin="6"/>
-<pinref part="JP17" gate="G$1" pin="6"/>
-<wire x1="-22.86" y1="-162.56" x2="-30.48" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="6"/>
-<junction x="-30.48" y="-162.56"/>
-<wire x1="-30.48" y1="-162.56" x2="-38.1" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -6954,19 +6874,16 @@ They will be floating when the esp is plugged in.</text>
 </net>
 <net name="DET" class="0">
 <segment>
-<pinref part="JP17" gate="G$1" pin="18"/>
-<pinref part="JP8" gate="G$1" pin="18"/>
-<wire x1="-22.86" y1="-193.04" x2="-30.48" y2="-193.04" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="18"/>
-<wire x1="-30.48" y1="-193.04" x2="-38.1" y2="-193.04" width="0.1524" layer="91"/>
-<junction x="-30.48" y="-193.04"/>
-<wire x1="-22.86" y1="-193.04" x2="-12.7" y2="-193.04" width="0.1524" layer="91"/>
-<junction x="-22.86" y="-193.04"/>
-<label x="-12.7" y="-193.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$5" gate="G$1" pin="ATT"/>
 <wire x1="30.48" y1="-177.8" x2="20.32" y2="-177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="9"/>
+<pinref part="JP3" gate="G$1" pin="9"/>
+<wire x1="-78.74" y1="-170.18" x2="-58.42" y2="-170.18" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="9"/>
+<junction x="-58.42" y="-170.18"/>
+<wire x1="-58.42" y1="-170.18" x2="-68.58" y2="-170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -6988,6 +6905,19 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="127" y1="-106.68" x2="127" y2="-109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="P18" class="0">
+<segment>
+<pinref part="JP17" gate="G$1" pin="18"/>
+<pinref part="JP8" gate="G$1" pin="18"/>
+<wire x1="-22.86" y1="-193.04" x2="-30.48" y2="-193.04" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="18"/>
+<wire x1="-30.48" y1="-193.04" x2="-38.1" y2="-193.04" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-193.04"/>
+<wire x1="-22.86" y1="-193.04" x2="-12.7" y2="-193.04" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-193.04"/>
+<label x="-12.7" y="-193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
