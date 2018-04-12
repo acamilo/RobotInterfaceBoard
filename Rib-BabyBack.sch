@@ -6579,9 +6579,9 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="71.12" y1="-53.34" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-55.88" x2="73.66" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-58.42" x2="73.66" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-58.42" x2="73.66" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-60.96" x2="73.66" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="GND"/>
@@ -6863,14 +6863,15 @@ They will be floating when the esp is plugged in.</text>
 <net name="N$11" class="0">
 <segment>
 <wire x1="66.04" y1="-66.04" x2="66.04" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-60.96" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-60.96" x2="66.04" y2="-60.96" width="0.1524" layer="91"/>
-<junction x="66.04" y="-60.96"/>
 <pinref part="SW1" gate="G$1" pin="C2"/>
+<wire x1="66.04" y1="-60.96" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-66.04" x2="63.5" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="C1"/>
 <wire x1="66.04" y1="-55.88" x2="63.5" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-60.96" x2="73.66" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="66.04" y="-60.96"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-60.96" x2="78.74" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DET" class="0">

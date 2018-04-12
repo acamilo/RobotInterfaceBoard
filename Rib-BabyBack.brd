@@ -226,8 +226,8 @@ BabyBack   Rev 4  Alex Camilo</text>
 <rectangle x1="25.2222" y1="45.2374" x2="45.2882" y2="55.6006" layer="42"/>
 <text x="64.8208" y="56.6928" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">GND</text>
 <text x="62.23" y="56.6928" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">BAT+</text>
-<text x="16.0528" y="74.8284" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">BAT+</text>
-<text x="11.0998" y="74.7522" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">GND</text>
+<text x="23.9268" y="74.8284" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">BAT+</text>
+<text x="11.3538" y="74.7522" size="0.6096" layer="21" font="vector" ratio="20" rot="R180">GND</text>
 <text x="39.9796" y="74.1426" size="0.6096" layer="21" font="vector" ratio="20" align="center">WII
 ACCESSORY</text>
 <text x="47.2186" y="66.5988" size="0.6096" layer="21" font="vector" ratio="20" rot="R180" align="center">SCL</text>
@@ -1972,10 +1972,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.702" y="72.009" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="SW1" library="GF-126-0327" package="GF-126-0327" value="DPDT" x="9.906" y="63.5" smashed="yes"/>
-<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2_LOCK" value="" x="22.479" y="72.263" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.5862" y="69.5706" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="PROD_ID" value="CONN-08399" x="22.479" y="72.263" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="23.749" y="70.993" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2_LOCK" value="" x="18.161" y="72.263" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.2682" y="69.5706" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="PROD_ID" value="CONN-08399" x="18.161" y="72.263" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="19.431" y="70.993" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="F4" library="3557-2" package="3557-2" value="3557-2" x="28.702" y="61.468"/>
 <element name="LED1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="LED_SML0603" package3d_urn="urn:adsk.eagle:package:13315/1" value="" x="44.45" y="63.754" smashed="yes" rot="R270">
@@ -2088,12 +2088,12 @@ design rules under a new name.</description>
 <via x="64.516" y="72.39" extent="1-16" drill="3.2" diameter="5"/>
 <wire x1="51.531" y1="71.315" x2="51.562" y2="71.284" width="0.254" layer="1"/>
 <wire x1="51.562" y1="71.284" x2="51.562" y2="66.929" width="0.254" layer="1"/>
-<contactref element="J1" pad="1"/>
-<via x="10.196" y="72.21" extent="1-16" drill="2"/>
+<via x="10.196" y="71.448" extent="1-16" drill="3"/>
 <contactref element="LED3" pad="C"/>
 <contactref element="LED2" pad="C"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="LED4" pad="C"/>
+<contactref element="J1" pad="2"/>
 </signal>
 <signal name="N$12">
 <contactref element="JP2" pad="7"/>
@@ -2463,16 +2463,14 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="SW1" pad="C2"/>
 <contactref element="SW1" pad="C1"/>
-<wire x1="14.5034" y1="68.0974" x2="14.5034" y2="66.9544" width="2.54" layer="1"/>
 <wire x1="14.5034" y1="60.0456" x2="14.5034" y2="66.9544" width="2.54" layer="16"/>
-<contactref element="J1" pad="2"/>
-<wire x1="18.669" y1="72.263" x2="18.8012" y2="72.263" width="2.54" layer="1"/>
-<wire x1="14.5034" y1="68.0974" x2="18.669" y2="72.263" width="2.54" layer="1"/>
-<wire x1="14.5034" y1="66.9544" x2="14.5034" y2="70.1026" width="2.54" layer="1"/>
-<wire x1="14.5034" y1="70.1026" x2="14.596" y2="72.21" width="2.54" layer="1"/>
-<wire x1="14.596" y1="72.21" x2="14.796" y2="72.21" width="2.54" layer="1"/>
-<via x="14.796" y="72.21" extent="1-16" drill="2"/>
-<wire x1="14.796" y1="72.21" x2="14.996" y2="72.01" width="2.54" layer="16"/>
+<via x="22.67" y="71.448" extent="1-16" drill="3"/>
+<contactref element="J1" pad="1"/>
+<wire x1="18.3918" y1="72.21" x2="18.3388" y2="72.263" width="2.54" layer="1"/>
+<wire x1="18.3388" y1="72.263" x2="18.3388" y2="70.7898" width="2.54" layer="1"/>
+<wire x1="18.3388" y1="70.7898" x2="14.5034" y2="66.9544" width="2.54" layer="1"/>
+<wire x1="22.67" y1="71.448" x2="18.743" y2="71.194" width="2.54" layer="1"/>
+<wire x1="18.743" y1="71.194" x2="14.5034" y2="66.9544" width="2.54" layer="1"/>
 </signal>
 <signal name="DET">
 <contactref element="U$5" pad="ATT"/>
