@@ -6162,6 +6162,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="LED4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="SML0603" package3d_urn="urn:adsk.eagle:package:13315/1"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6211,6 +6213,8 @@ They will be floating when the esp is plugged in.</text>
 <instance part="LED4" gate="G$1" x="25.4" y="-223.52"/>
 <instance part="GND6" gate="1" x="25.4" y="-233.68"/>
 <instance part="R4" gate="G$1" x="25.4" y="-213.36" rot="R90"/>
+<instance part="R5" gate="G$1" x="25.4" y="-190.5" rot="R90"/>
+<instance part="R6" gate="G$1" x="20.32" y="-190.5" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6751,7 +6755,11 @@ They will be floating when the esp is plugged in.</text>
 <net name="SDA" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="SDA"/>
-<wire x1="30.48" y1="-180.34" x2="12.7" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-180.34" x2="20.32" y2="-180.34" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="-180.34" x2="12.7" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-185.42" x2="20.32" y2="-180.34" width="0.1524" layer="91"/>
+<junction x="20.32" y="-180.34"/>
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="14"/>
@@ -6765,7 +6773,11 @@ They will be floating when the esp is plugged in.</text>
 <net name="SCL" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="SCL"/>
-<wire x1="30.48" y1="-182.88" x2="12.7" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-182.88" x2="25.4" y2="-182.88" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="-182.88" x2="12.7" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-185.42" x2="25.4" y2="-182.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="-182.88"/>
 </segment>
 <segment>
 <pinref part="JP8" gate="G$1" pin="17"/>
@@ -6858,6 +6870,16 @@ They will be floating when the esp is plugged in.</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="127" y1="-96.52" x2="127" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-195.58" x2="20.32" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-198.12" x2="25.4" y2="-198.12" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="-198.12" x2="38.1" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-195.58" x2="25.4" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="25.4" y="-198.12"/>
+<label x="35.56" y="-198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
