@@ -7087,6 +7087,7 @@ They will be floating when the esp is plugged in.</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="-96.52" x2="96.52" y2="-91.44" width="0.1524" layer="91"/>
+<label x="96.52" y="-93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -7108,6 +7109,7 @@ They will be floating when the esp is plugged in.</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="127" y1="-96.52" x2="127" y2="-91.44" width="0.1524" layer="91"/>
+<label x="127" y="-93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="1" pin="3"/>
@@ -7159,6 +7161,7 @@ They will be floating when the esp is plugged in.</text>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="-96.52" x2="111.76" y2="-91.44" width="0.1524" layer="91"/>
+<label x="111.76" y="-93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SDA" class="0">
