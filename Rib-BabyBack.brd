@@ -192,21 +192,21 @@ BabyBack   Rev 4  Alex Camilo</text>
 <text x="14.986" y="18.415" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">13</text>
 <text x="14.986" y="8.255" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">5v</text>
 <text x="53.086" y="53.975" size="1.27" layer="21" font="vector" ratio="20">GND</text>
-<text x="53.086" y="51.435" size="1.27" layer="21" font="vector" ratio="20">IO23</text>
-<text x="53.086" y="48.895" size="1.27" layer="21" font="vector" ratio="20">IO22</text>
+<text x="53.086" y="51.435" size="1.27" layer="21" font="vector" ratio="20">23</text>
+<text x="53.086" y="48.895" size="1.27" layer="21" font="vector" ratio="20">SCL</text>
 <text x="53.086" y="46.355" size="1.27" layer="21" font="vector" ratio="20">TX0</text>
 <text x="53.086" y="43.815" size="1.27" layer="21" font="vector" ratio="20">RX0</text>
-<text x="53.086" y="41.275" size="1.27" layer="21" font="vector" ratio="20">IO21</text>
+<text x="53.086" y="41.275" size="1.27" layer="21" font="vector" ratio="20">SDA</text>
 <text x="53.086" y="38.735" size="1.27" layer="21" font="vector" ratio="20">GND</text>
-<text x="53.086" y="36.195" size="1.27" layer="21" font="vector" ratio="20">IO19</text>
-<text x="53.086" y="33.655" size="1.27" layer="21" font="vector" ratio="20">IO18</text>
-<text x="53.086" y="31.115" size="1.27" layer="21" font="vector" ratio="20">IO5</text>
-<text x="53.086" y="28.575" size="1.27" layer="21" font="vector" ratio="20">IO17</text>
-<text x="53.086" y="26.035" size="1.27" layer="21" font="vector" ratio="20">IO16</text>
-<text x="53.086" y="23.495" size="1.27" layer="21" font="vector" ratio="20">IO4</text>
-<text x="53.086" y="20.955" size="1.27" layer="21" font="vector" ratio="20">IO0</text>
-<text x="53.086" y="18.415" size="1.27" layer="21" font="vector" ratio="20">IO2</text>
-<text x="53.086" y="15.875" size="1.27" layer="21" font="vector" ratio="20">IO15</text>
+<text x="53.086" y="36.195" size="1.27" layer="21" font="vector" ratio="20">19</text>
+<text x="53.086" y="33.655" size="1.27" layer="21" font="vector" ratio="20">18</text>
+<text x="53.086" y="31.115" size="1.27" layer="21" font="vector" ratio="20">5</text>
+<text x="53.086" y="28.575" size="1.27" layer="21" font="vector" ratio="20">17</text>
+<text x="53.086" y="26.035" size="1.27" layer="21" font="vector" ratio="20">16</text>
+<text x="53.086" y="23.495" size="1.27" layer="21" font="vector" ratio="20">4</text>
+<text x="53.086" y="20.955" size="1.27" layer="21" font="vector" ratio="20">0</text>
+<text x="53.086" y="18.415" size="1.27" layer="21" font="vector" ratio="20">2</text>
+<text x="53.086" y="15.875" size="1.27" layer="21" font="vector" ratio="20">15</text>
 <wire x1="49.276" y1="7.15" x2="18.836" y2="7.15" width="0.1524" layer="22"/>
 <wire x1="49.276" y1="7.15" x2="49.276" y2="56.35" width="0.1524" layer="22"/>
 <wire x1="67.437" y1="3.175" x2="65.151" y2="0.635" width="0.1524" layer="20" curve="-90"/>
@@ -240,6 +240,16 @@ ACCESSORY</text>
 <text x="11.43" y="46.355" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">5</text>
 <text x="11.43" y="43.815" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">5</text>
 <text x="11.43" y="41.275" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">5</text>
+<text x="56.642" y="15.875" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="18.415" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="20.955" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="23.495" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="26.035" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="28.575" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="31.115" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="33.655" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="36.195" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="56.642" y="51.435" size="1.27" layer="21" font="vector" ratio="20">S</text>
 </plain>
 <libraries>
 <library name="headers">
@@ -2345,14 +2355,6 @@ design rules under a new name.</description>
 <contactref element="JP7" pad="15"/>
 <wire x1="46.736" y1="44.45" x2="51.181" y2="44.45" width="0.508" layer="1"/>
 <wire x1="51.181" y1="44.45" x2="59.436" y2="44.45" width="0.508" layer="1"/>
-<wire x1="59.436" y1="44.45" x2="60.0202" y2="44.45" width="0.1524" layer="16"/>
-<wire x1="60.0202" y1="44.45" x2="61.214" y2="45.6438" width="0.1524" layer="16"/>
-<wire x1="61.214" y1="45.6438" x2="65.9892" y2="45.6438" width="0.1524" layer="16"/>
-<wire x1="65.9892" y1="45.6438" x2="66.1924" y2="45.847" width="0.1524" layer="16"/>
-<wire x1="66.1924" y1="45.847" x2="66.2178" y2="45.847" width="0.1524" layer="16"/>
-<via x="66.2178" y="45.847" extent="1-16" drill="0.35"/>
-<wire x1="66.2178" y1="45.847" x2="66.2178" y2="33.1216" width="0.1524" layer="1"/>
-<wire x1="67.5894" y1="31.75" x2="66.2178" y2="33.1216" width="0.1524" layer="1"/>
 </signal>
 <signal name="TX0">
 <contactref element="JP8" pad="16"/>
@@ -2360,18 +2362,6 @@ design rules under a new name.</description>
 <contactref element="JP7" pad="16"/>
 <wire x1="59.436" y1="46.99" x2="51.181" y2="46.99" width="0.508" layer="1"/>
 <wire x1="51.181" y1="46.99" x2="46.736" y2="46.99" width="0.508" layer="1"/>
-<wire x1="59.436" y1="46.99" x2="60.1218" y2="46.99" width="0.1524" layer="16"/>
-<wire x1="60.1218" y1="46.99" x2="61.1632" y2="45.9486" width="0.1524" layer="16"/>
-<wire x1="61.1632" y1="45.9486" x2="65.405" y2="45.9486" width="0.1524" layer="16"/>
-<wire x1="65.405" y1="45.9486" x2="66.1924" y2="46.736" width="0.1524" layer="16"/>
-<wire x1="66.1924" y1="46.736" x2="66.2178" y2="46.8884" width="0.1524" layer="16"/>
-<via x="66.2178" y="46.8884" extent="1-16" drill="0.35"/>
-<wire x1="66.8246" y1="46.09835" x2="66.8246" y2="45.59565" width="0.1524" layer="1"/>
-<wire x1="66.8246" y1="45.59565" x2="66.5226" y2="45.29365" width="0.1524" layer="1"/>
-<wire x1="66.2178" y1="46.8884" x2="66.2178" y2="46.70515" width="0.1524" layer="1"/>
-<wire x1="66.2178" y1="46.70515" x2="66.8246" y2="46.09835" width="0.1524" layer="1"/>
-<wire x1="67.7192" y1="32.9918" x2="66.5226" y2="34.1884" width="0.1524" layer="1"/>
-<wire x1="66.5226" y1="45.29365" x2="66.5226" y2="34.1884" width="0.1524" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="JP18" pad="1"/>
