@@ -15,6 +15,8 @@ See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 
 See: https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
 
+## Controller Axis Mapping
 
+See: https://github.com/madhephaestus/WiiChuck/blob/master/src/Classic.cpp#L80
 
 
