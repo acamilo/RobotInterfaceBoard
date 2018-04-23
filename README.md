@@ -5,3 +5,16 @@ This is a breakout board for the ESP32 and Teensy 3.5 microcontrollers. Power is
 
 ![Pin Functions](docs/esp32_pinmap.png)
 
+## Availible Servo Pins
+
+2,4,12-19,21-23,25-27,32-33
+
+See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
+
+## Interrupts syntax
+
+See: https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
+
+
+
+
