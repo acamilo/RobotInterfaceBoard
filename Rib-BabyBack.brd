@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -249,6 +249,13 @@ ACCESSORY</text>
 <text x="56.642" y="33.655" size="1.27" layer="21" font="vector" ratio="20">S</text>
 <text x="56.642" y="36.195" size="1.27" layer="21" font="vector" ratio="20">S</text>
 <text x="56.642" y="51.435" size="1.27" layer="21" font="vector" ratio="20">S</text>
+<text x="11.43" y="38.735" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">5</text>
+<text x="11.43" y="36.195" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">A</text>
+<text x="11.43" y="33.655" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">A</text>
+<text x="11.43" y="31.115" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">A</text>
+<text x="11.43" y="28.575" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">A</text>
+<text x="11.43" y="26.035" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">A</text>
+<text x="11.43" y="23.495" size="1.27" layer="21" font="vector" ratio="20" align="bottom-right">A</text>
 </plain>
 <libraries>
 <library name="headers">
