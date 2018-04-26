@@ -268,9 +268,8 @@ BabyBack   Rev 5  Alex Camilo</text>
 <wire x1="25.654" y1="73.152" x2="25.4" y2="73.152" width="0.1524" layer="21"/>
 <text x="58.6994" y="70.4596" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">WII
 ACCESSORY</text>
-<text x="9.144" y="2.667" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center-left">13</text>
-<text x="9.144" y="4.191" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center-left">13</text>
-<text x="9.144" y="5.715" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center-left">13</text>
+<text x="10.795" y="9.906" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">3.3v</text>
+<text x="10.795" y="19.812" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">5v</text>
 </plain>
 <libraries>
 <library name="headers">
