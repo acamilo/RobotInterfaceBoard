@@ -4,7 +4,7 @@ This is a breakout board for the ESP32 and Teensy 3.5 microcontrollers. Power is
 
 ## PCB
 
-![Image of  Board](board.png)
+![Image of  Board](docs/board.png)
 
 ## ESP32Dev Board PINMAP
 
