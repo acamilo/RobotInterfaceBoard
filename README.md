@@ -1,6 +1,6 @@
 ### Robot Interface Board
 
-This is a breakout board for the ESP32 and Teensy 3.5 microcontrollers. Power is provided by 6 AA or 2 LiIon batteries. 
+This is a breakout board for the ESP32 microcontrollers. Power is provided by 6 AA or 2 LiIon batteries. 
 
 ## PCB
 
