@@ -13,7 +13,9 @@ This is a breakout board for the ESP32 microcontrollers. Power is provided by 6 
 ## Pins to Never Use:
 
 0       - This is the boot pin, if held low during a reset it will prevent the device from booting
+
 6-11    - These pins are hookups for external system flash and are used by the system flash. Unless you are extending the chips flash capibilities, do not use these. 
+
 1 and 3 -  these are used to program the device and are serial port pins.
 
 ## Input Only pins
