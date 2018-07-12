@@ -20,7 +20,7 @@ This is a breakout board for the ESP32 microcontrollers. Power is provided by 6 
 
 ## Input Only pins
 
-34-39 are input only. They have no output modes at all. 
+34-39 are input only. They have no output modes at all. Analog input and digital input are availible.
 
 ## External Use pins
 
@@ -43,46 +43,11 @@ See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 ## Interrupt
 
 For code examples: https://techtutorialsx.com/2017/09/30/esp32-arduino-external-interrupts/
-Availible pins:
+
+Availible interruptable pins:
 ```
-//interrupt cpu using table, Please see the core-isa.h
-/*************************************************************************************************************
- *      Intr num                Level           Type                    PRO CPU usage           APP CPU uasge
- *      0                       1               extern level            WMAC                    Reserved
- *      1                       1               extern level            BT/BLE Host HCI DMA     BT/BLE Host HCI DMA
- *      2                       1               extern level
- *      3                       1               extern level
- *      4                       1               extern level            WBB
- *      5                       1               extern level            BT/BLE Controller       BT/BLE Controller
- *      6                       1               timer                   FreeRTOS Tick(L1)       FreeRTOS Tick(L1)
- *      7                       1               software                BT/BLE VHCI             BT/BLE VHCI
- *      8                       1               extern level            BT/BLE BB(RX/TX)        BT/BLE BB(RX/TX)
- *      9                       1               extern level
- *      10                      1               extern edge
- *      11                      3               profiling
- *      12                      1               extern level
- *      13                      1               extern level
- *      14                      7               nmi                     Reserved                Reserved
- *      15                      3               timer                   FreeRTOS Tick(L3)       FreeRTOS Tick(L3)
- *      16                      5               timer
- *      17                      1               extern level
- *      18                      1               extern level
- *      19                      2               extern level
- *      20                      2               extern level
- *      21                      2               extern level
- *      22                      3               extern edge
- *      23                      3               extern level
- *      24                      4               extern level            TG1_WDT
- *      25                      4               extern level            CACHEERR
- *      26                      5               extern level
- *      27                      3               extern level            Reserved                Reserved
- *      28                      4               extern edge             DPORT ACCESS            DPORT ACCESS
- *      29                      3               software                Reserved                Reserved
- *      30                      4               extern edge             Reserved                Reserved
- *      31                      5               extern level
- *************************************************************************************************************
- */
- ```
+0-39
+```
 
 ## Controller Axis Mapping
 
