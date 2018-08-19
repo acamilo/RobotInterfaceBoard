@@ -56,8 +56,3 @@ Availible interruptable pins:
 0-39
 ```
 
-## Controller Axis Mapping
-
-See: https://github.com/madhephaestus/WiiChuck/blob/master/src/Classic.cpp#L80
-
-
