@@ -28,7 +28,12 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 ## Input Only pins
 
 34-39 are input only. They have no output modes at all. Analog input and digital input are availible.
-
+```
+35
+34
+39
+36
+```
 ## External Use pins
 
 1 and 3 are the serial port used for programming and print statements. This should not be used for user functions, but can be used if serial functionality is needed.
