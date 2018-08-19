@@ -1,6 +1,12 @@
 ### Robot Interface Board
 
-This is a breakout board for the ESP32 microcontrollers. Power is provided by 6 AA or 2 LiIon batteries. 
+The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Arduino module](https://www.digikey.com/product-detail/en/espressif-systems/ESP32-DEVKITC/1904-1011-ND/8544299). The Dev Kit C is a reference design of the ESP32-WROOM-32 module which houses the WiFi and bluetooth Antenae. The ESP32-WROOM-32 module houses an ESP32 microcontroller. 
+
+#### Datasheet
+
+Arduino compatiple DevkitC : https://esp-idf.readthedocs.io/en/latest/get-started/get-started-devkitc.html
+ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+
 
 ## PCB
 
