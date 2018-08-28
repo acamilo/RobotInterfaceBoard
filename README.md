@@ -8,6 +8,9 @@ Arduino compatiple DevkitC : https://esp-idf.readthedocs.io/en/latest/get-starte
 
 ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 
+#### Driver
+
+https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 
 ## PCB
 
