@@ -42,6 +42,7 @@ https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vc
 1 and 3 are the serial port used for programming and print statements. This should not be used for user functions, but can be used if serial functionality is needed.
 
 22 and 21 have 4.7kOhm pullups on them and are connected to the Wii accessory port. These can be used with other i2c devices.
+See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 
 ## Availible Servo/PWM/AnalogWrite Pins
 ```
@@ -62,7 +63,6 @@ https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vc
 These pins when used with analogWrite will produce an 8 bit analog value on the given pin. The value is from 0-3.3v mapped to 0-255 values. The api is to simply use analogWrite().
 
 
-See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 
 ## Interrupt
 
