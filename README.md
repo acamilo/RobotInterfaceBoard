@@ -43,15 +43,24 @@ https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vc
 
 22 and 21 have 4.7kOhm pullups on them and are connected to the Wii accessory port. These can be used with other i2c devices.
 
-## Availible Servo Pins
+## Availible Servo/PWM/AnalogWrite Pins
 ```
 2
 4
+5
 12-19
 21-23
 25-27
 32-33
 ```
+
+## Availible DAC pins
+```
+25
+26
+```
+These pins when used with analogWrite will produce an 8 bit analog value on the given pin. The value is from 0-3.3v mapped to 0-255 values. The api is to simply use analogWrite().
+
 
 See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 
