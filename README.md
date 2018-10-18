@@ -55,6 +55,40 @@ See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 32-33
 ```
 
+### Timer distribution for PWM
+The ESP32 has 4 timers availible for use in PWM generation. All PWM channels using a given TImer have the same base frequency. Changing the frequency of a channel will change the frequency of other channels. Note the chart for how the PWM channel allocations coorospond to timers:
+
+```
+/*
+ * LEDC Chan to Group/Channel/Timer Mapping
+** ledc: 0  => Group: 0, Channel: 0, Timer: 0
+** ledc: 1  => Group: 0, Channel: 1, Timer: 0
+** ledc: 2  => Group: 0, Channel: 2, Timer: 1
+** ledc: 3  => Group: 0, Channel: 3, Timer: 1
+** ledc: 4  => Group: 0, Channel: 4, Timer: 2
+** ledc: 5  => Group: 0, Channel: 5, Timer: 2
+** ledc: 6  => Group: 0, Channel: 6, Timer: 3
+** ledc: 7  => Group: 0, Channel: 7, Timer: 3
+** ledc: 8  => Group: 1, Channel: 0, Timer: 0
+** ledc: 9  => Group: 1, Channel: 1, Timer: 0
+** ledc: 10 => Group: 1, Channel: 2, Timer: 1
+** ledc: 11 => Group: 1, Channel: 3, Timer: 1
+** ledc: 12 => Group: 1, Channel: 4, Timer: 2
+** ledc: 13 => Group: 1, Channel: 5, Timer: 2
+** ledc: 14 => Group: 1, Channel: 6, Timer: 3
+** ledc: 15 => Group: 1, Channel: 7, Timer: 3
+*/
+```
+
+When using ESP32PWM objects, changing the frequency will check for timer cross-talk. If you re-set the frequency of a PWM indirectly, the object will print this warning:
+
+```
+	WARNING PWM channel 1 shares a timer with 0
+	changing the frequency to 330.00 Hz will ALSO change channel 0 
+	from its previous frequency of 50.00 Hz
+```
+
+
 ## Availible DAC pins
 ```
 25
