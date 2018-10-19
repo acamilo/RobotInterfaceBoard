@@ -88,7 +88,12 @@ When using ESP32PWM objects, changing the frequency will check for timer cross-t
 	from its previous frequency of 50.00 Hz
 ```
 
+If you get this warning you can space out the attach events of the hardware using ESP32PWM using dummy objects. To consume a channel without activating a pwm, you can add this to your code between attach method calls. 
 
+```
+ESP32PWM dummy;
+dummy.getChannel();
+```
 ## Availible DAC pins
 ```
 25
