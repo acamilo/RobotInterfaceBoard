@@ -56,7 +56,7 @@ See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 ```
 
 ### Timer distribution for PWM
-The ESP32 has 4 timers availible for use in PWM generation. All PWM channels using a given TImer have the same base frequency. Changing the frequency of a channel will change the frequency of other channels. Note the chart for how the PWM channel allocations coorospond to timers:
+The ESP32 has 4 timers availible for use in PWM generation. All PWM channels using a given timer have the same base frequency. Changing the frequency of a channel will change the frequency of other channels. Note the chart for how the PWM channel allocations coorospond to timers:
 
 ```
 /*
