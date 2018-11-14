@@ -8,9 +8,117 @@ Arduino compatiple DevkitC : https://esp-idf.readthedocs.io/en/latest/get-starte
 
 ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 
-#### Driver
+# Development Computer Options  
+
+## Option 1) A lab machine
+
+Availible to all students. 
+
+Note that Eclipse *should be installed by you* in your My Documents folder.  Each install of eclipse should be personal and not shared.
+
+Note that the driver is installed on these computers
+
+Note that Arduino with the ESP32 toolchain is already installed in C:\WPIAPPS\arduino-1.8.3\
+
+##  Option 2) Personal Machine
+
+### Supported for this class
+
+Windows 10 Pro 
+
+A user name with no " " in the file path. Generally it is safe to use your WPI username as the username on your computer.
+
+Fresh install is genearlly reccomended every 6 months. Install disk are availible to students as a resource from the WPI Helpdesk.
+
+OneDrive and Dropbox conflict with the install process and must be fully removed from the user file paths. 
+
+Eclipse should be installed in C:\eclipse
+
+Arduino should be installed in C:\RBE-arduino
+
+After installation of both, ensure your user has write access to the directories. 
+
+### Unsupported OS's
+
+MacOS is unsupported and only intermittantly working. Drivers have been an issue with programming our board, and virtualization of Windows within OSX is tested non-working. If you have Mac OSX please install a fresh copy of Windows 10 nativly and dual boot. 
+
+Ubuntu 16.04 is unsupported but works well.
+
+Ubuntu 18.04 is unsupported but works well with some creative directions following. This will take more effort and would require pre-existing proficency in Linux. If you have 18.04 please install Windows 10 or 16.04. 
+
+### How to get Windows 10 as a Student for free from WPI
+
+To get your student copy of Windows go here: 
+
+https://onlinestore.wpi.edu/
+
+Select windows 10, and download it. For students you get one copy and it is free. 
+
+You can follow this tutorial to install it:
+
+https://www.youtube.com/watch?v=aTVOTY93XXU
+
+# Arduino and the ESP32 Toolchain
+
+## Driver
+
+This is installed on the lab machines already. 
+
+After extracting the Zip file, install the 64 bit version of the driver. 
 
 https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+
+
+## Personal Computer install Windows  (Supported)
+download:
+
+https://github.com/WPIRoboticsEngineering/RBE2002_template/releases/download/0.0.1/RBE-arduino110718.zip
+
+And extract it on your computer in 
+
+```
+C:/RBE-arduino
+```
+Run Arduino in the extracted folder.
+
+## Personal Computer install Linux / Mac  (Unsupported)
+
+Linux Instructions (16.04 works well, 18.04 is a bit fiddely and needs extra steps but can be made to work):
+
+https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_ubuntu.md
+
+
+Mac instructions (NOT SUPPORTED BY THE LAB, HAS LOTS OF PROBLEMS):
+
+https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
+
+
+# Arduino Libraries
+## HOWTO
+For detailed instructions on how libraries work, see: https://www.arduino.cc/en/Guide/Libraries
+
+Open Arduino and select Sketch->Libraries -> Manage Libraries
+## Which Libraries
+Search for and install:
+
+ESP32Servo
+
+ESP32Encoder
+
+Adafruit_BNO055
+
+BNO055SimplePacketComs
+
+Esp32SimplePacketComs
+
+SimplePacketComs
+
+WiiChuck
+
+DFRobotIRPosition
+
+PID
+
 
 ## PCB
 
