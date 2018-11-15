@@ -202,6 +202,26 @@ For detailed instructions on how libraries work, see: https://www.arduino.cc/en/
 
 Open Arduino and select Sketch->Libraries -> Manage Libraries
 ## Which Libraries
+
+### 1001
+
+ESP32Servo
+
+ESP32Encoder
+### 2001
+Search for and install:
+
+ESP32Servo
+
+ESP32Encoder
+
+Esp32SimplePacketComs
+
+SimplePacketComs
+
+PID
+
+### 2002
 Search for and install:
 
 ESP32Servo
