@@ -31,7 +31,11 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 
 ## Output Only Pins
 
-13 and 15 are Output only
+13 
+
+15 
+
+5
 
 ## Input Only pins
 
