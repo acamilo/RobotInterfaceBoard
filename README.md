@@ -27,6 +27,12 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 
 1 and 3 -  these are used to program the device and are serial port pins.
 
+2 is a Strapping Pin on GPIO
+
+## Output Only Pins
+
+13 and 15 are Output only
+
 ## Input Only pins
 
 34-39 are input only. They have no output modes at all. Analog input and digital input are availible.
@@ -45,10 +51,10 @@ See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 
 ## Availible Servo/PWM/AnalogWrite Pins
 ```
-2
 4
 5
-12-19
+12
+14-19
 21-23
 25-27
 32-33
