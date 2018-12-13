@@ -30,13 +30,11 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 2 is a Strapping Pin on GPIO
 
 ## Output Only Pins
-
+```
 13 
-
 15 
-
 5
-
+```
 ## Input Only pins
 
 34-39 are input only. They have no output modes at all. Analog input and digital input are availible.
@@ -45,6 +43,17 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 34
 39
 36
+```
+
+## Availible Input/Output
+
+```
+4
+12
+14-19
+21-23
+25-27
+32-33
 ```
 ## External Use pins
 
