@@ -203,6 +203,20 @@ C:/RBE-arduino
 ```
 Run Arduino in the extracted folder.
 
+Make a sketchbook folder in C:/, or (R:/ on the lab machines) make a folder:
+
+```
+C:/Sketchbook/
+```
+
+Make sure it is user level read-write
+
+Open the Preferences in Arduino and set the Sketchbook location to:
+
+```
+C:/Sketchbook/
+```
+
 ## Personal Computer install Linux / Mac  (Unsupported)
 
 Linux Instructions (16.04 works well, 18.04 is a bit fiddely and needs extra steps but can be made to work):
