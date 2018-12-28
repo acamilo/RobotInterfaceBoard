@@ -134,11 +134,11 @@ Availible interruptable pins are all input pins.
 
 Availible to all students. 
 
-Note that Eclipse *should be installed by you* in your My Documents folder.  Each install of eclipse should be personal and not shared.
-
 Note that the driver is installed on these computers
 
 Note that Arduino with the ESP32 toolchain is already installed in C:\WPIAPPS\arduino-1.8.3\
+
+Note Eclipse is installed on all workstations with the Sloeber plugin installed. 
 
 ##  Option 2) Personal Machine
 
@@ -222,7 +222,7 @@ Linux Instructions (16.04 works well, 18.04 is a bit fiddely and needs extra ste
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_ubuntu.md
 
 
-Mac instructions (NOT SUPPORTED BY THE LAB, HAS LOTS OF PROBLEMS):
+Mac instructions (NOT SUPPORTED BY RBE, HAS LOTS OF PROBLEMS):
 
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
 
@@ -250,7 +250,6 @@ Esp32SimplePacketComs
 
 SimplePacketComs
 
-PID
 
 ### 2002
 Search for and install:
