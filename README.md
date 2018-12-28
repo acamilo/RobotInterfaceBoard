@@ -125,10 +125,8 @@ These pins when used with analogWrite will produce an 8 bit analog value on the 
 
 For code examples: https://techtutorialsx.com/2017/09/30/esp32-arduino-external-interrupts/
 
-Availible interruptable pins:
-```
-0-39
-```
+Availible interruptable pins are all input pins.
+
 
 # Development Computer Options  
 
