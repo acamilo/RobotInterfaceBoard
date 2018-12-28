@@ -45,12 +45,13 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 36
 ```
 
-## Availible Input/Output
+## Availible as Both Input and Output
 
 ```
 4
 12
-14-19
+14
+16-19
 21-23
 25-27
 32-33
@@ -66,8 +67,7 @@ See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 ```
 4
 5
-12
-14-19
+12-19
 21-23
 25-27
 32-33
