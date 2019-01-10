@@ -250,6 +250,8 @@ Esp32SimplePacketComs
 
 SimplePacketComs
 
+QTRSensors
+
 
 ### 2002
 Search for and install:
