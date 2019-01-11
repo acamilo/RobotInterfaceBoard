@@ -335,4 +335,17 @@ PID
 
 * Interrupt issues - Interrupts that access memory that is used by non-interrupt code without a mutex or semiphore. Try disabling the interrupt and if this fixed the reboot issue, then go ahead and implement the mutex locking. 
 
+### "This processor seems more complicated than the Uno and the Mega, why are we using it?"
+
+* The ESP32 is a faster core at 260Mhz, vs the 16Mhz Uno. It is also dual-core.
+
+* It has more perpherals needed for building robots, 16x 12 bit ADC, 2x DAC and 16 hardware encoder perpherals
+
+* It has hardware and software that support WiFi for communications. 
+
+* 32 bit processing with an FPU means complex math is possible on the microcontroller. 
+
+* It is Arduino compatible for programming and Library support
+
+* It is an open source design of the DevKit-C module, using an open source MIPS core and open soruce tool-chain
 
