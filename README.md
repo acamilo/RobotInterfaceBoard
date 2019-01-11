@@ -169,9 +169,17 @@ Fresh install is genearlly reccomended every 6 months. Install disk are availibl
 
 OneDrive and Dropbox conflict with the install process and must be fully removed from the user file paths. 
 
-Eclipse should be installed in C:\eclipse
+Eclipse should be installed in 
 
-Arduino should be installed in C:\RBE-arduino
+```
+C:/eclipse
+```
+
+Arduino should be installed in 
+
+```
+C:/RBE-arduino-install/
+```
 
 After installation of both, ensure your user has write access to the directories. 
 
