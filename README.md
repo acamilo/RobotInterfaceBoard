@@ -317,9 +317,7 @@ PID
 
 * Make sure the USB Micro cable is a data cable, not just a crappy USB charging cable with no data lines. 
 
-### "It wont program..."
-
-* Use a lab supplied (or known good) USB Micro cable (if this works replace cable)
+### "I can select the correct serial port, put it wont program or times out while programming..."
 
 * Program an example script using Lab computer   (if this works have them re-download the pre-packaged arduino from https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported ) 
 
