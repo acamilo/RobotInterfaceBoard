@@ -216,20 +216,22 @@ And extract it on your computer in
 ```
 C:/RBE-arduino
 ```
-Run Arduino in the extracted folder.
 
 Make a sketchbook folder in C:/, or (R:/ on the lab machines) make a folder:
 
 ```
-C:/Sketchbook/
+C:/RBEArduino/
 ```
 
 Make sure it is user level read-write
 
+Run Arduino in the extracted folder.
+
+
 Open the Preferences in Arduino and set the Sketchbook location to:
 
 ```
-C:/Sketchbook/
+C:/RBEArduino/
 ```
 
 ## Personal Computer install Linux / Mac  (Unsupported)
@@ -256,6 +258,7 @@ Open Arduino and select Sketch->Libraries -> Manage Libraries
 ESP32Servo
 
 ESP32Encoder
+
 ### 2001
 Search for and install:
 
