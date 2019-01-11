@@ -5,24 +5,24 @@ Download the eclipse installer from here:
 
 [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
 
-![alt text](/doc/downloadEclipseForC.png)
+![alt text](/docs/downloadEclipseForC.png)
 
 Run the Eclipse installer
 
-![alt text](/doc/runEclipesInstaller.png)
+![alt text](/docs/runEclipesInstaller.png)
 
 Install the C developemt version. 
 
-![alt text](/doc/selectCversion.png)
+![alt text](/docs/selectCversion.png)
 
 Install Eclipse on R drive if using lab machine
 
-![alt text](/doc/installOnRDrive.png)
+![alt text](/docs/installOnRDrive.png)
 
 Once the install is done, open eclipse and go to the workbench. 
 
-![alt text](/doc/openWorkspaceOnR.png)
-![alt text](/doc/goToWorkspace.png)
+![alt text](/docs/openWorkspaceOnR.png)
+![alt text](/docs/goToWorkspace.png)
 
 Open
 
@@ -32,7 +32,7 @@ Help->Eclipse Marketplace...
 
 Search for Sloeber 
 
-![alt text](/doc/installSloeber.png)
+![alt text](/docs/installSloeber.png)
 
 Set the workspace to Arduino mode. In the upper right hand corner there is a button with a little yellow plus sign, and when you hover over it is says "pen Perspective". Click that button. Select Arduino. 
 
@@ -44,11 +44,11 @@ Eclipse will restart to load the plugin.
 Arduino -> Preferences
 ```
 
-![alt text](/doc/ArduinoPreferences.png)
+![alt text](/docs/ArduinoPreferences.png)
 
 And start by removing both of the default values for private Hardware and Private libraries:
 
-![alt text](/doc/removePrivatePaths.png)
+![alt text](/docs/removePrivatePaths.png)
 
 Under Private Hardware Path, select New.. and search for (where you extracted Arduino)/hardware/ 
 
@@ -63,4 +63,4 @@ Mine looks like:
 ```
 C:\Users\harrington\Documents\Arduino\libraries
 ```
-![alt text](/doc/setPrivateFields.png)
+![alt text](/docs/setPrivateFields.png)
