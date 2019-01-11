@@ -31,15 +31,17 @@ There are 27 I/O pins availible for use in your programs by reusing the boot but
 
 There is a button connected to pin 0 and is accessible to the users code as a button. If you hold it whild pressing the reset button, however, it will hold the chip in bootloader mode and it will not run your code until the core is reset or programmed over the USB. Once your code starts, this button is availible for use as a button in your code and pressing it will not effect the opperation of the core after your program has started.  
 
-## Pins to Never Use:
+## Pins to Never Use because they will disrupt programming and opperation:
 
 6-11    - These pins are hookups for external system flash and are used by the system flash. Unless you are extending the chips flash capibilities, do not use these. 
 
 1 and 3 -  these are used to program the device and are serial port pins.
 
-## Output Only Pins (Strapping pins for the core)
+## Output Only Pins 
 
-These are strapping pins and have to be in known states at the time of the chip booting. If you use them as outputs, be careful to note the [ESP32-DevKitC Arduino module wireing diagram ](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch-20180607a.pdf) for the pull up or down resistor states for each. When using these pins make sure the weak-pull resistor will not interfeare with your opperation, and do not add additional weak-pull resistors.
+These pins are strapping pins for the core, if pulled to a different state than the default not boot.
+
+These are strapping pins and have to be in known states at the time of the chip booting. If you use them as outputs, be careful to note the the pull up or down resistor states for each. When using these pins make sure the weak-pull resistor will not interfeare with your intended opperation, and do not add additional weak-pull resistors.
 
 ```
 2  (pull down)
@@ -50,6 +52,7 @@ These are strapping pins and have to be in known states at the time of the chip 
 ## Input Only pins
 
 34-39 are input only. They have no output modes at all. Analog input and digital input are availible.
+
 ```
 35
 34
@@ -321,9 +324,9 @@ PID
 
 * Program an example script using Lab computer   (if this works have them re-download the pre-packaged arduino from https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported ) 
 
-* Is the serial moniter open? CLose it and try again. 
+* Is the serial moniter open? Close it and try again. 
 
-* Did it program earlier? Unplud the USB and plug it back in.
+* Did it program earlier? Unplug the USB and plug it back in.
 
 * Hold Boot button and Strobe the enable button to set core into bootloader mode. Try to program. (If this helps, you are printing too much data to the serial port)
 
