@@ -73,9 +73,11 @@ These are strapping pins and have to be in known states at the time of the chip 
 ```
 ## External Use pins
 
-0       - This is the boot pin, if held low during a reset it will prevent the device from booting
+0 is the boot pin, if held low during a reset it will prevent the device from booting
 
 1 and 3 are the serial port used for programming and print statements. This should not be used for user functions, but can be used if serial functionality is needed.
+
+13 Has an LED connected to it on the RIB
 
 22 and 21 have 4.7kOhm pullups on them and are connected to the Wii accessory port. These can be used with other i2c devices.
 See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
