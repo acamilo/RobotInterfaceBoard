@@ -4,11 +4,11 @@ The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Ardui
 
 #### Datasheet
 
-Arduino compatiple DevkitC : https://esp-idf.readthedocs.io/en/latest/get-started/get-started-devkitc.html
+[Arduino compatiple DevkitC]( https://esp-idf.readthedocs.io/en/latest/get-started/get-started-devkitc.html)
 
-ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+[ESP32 Microcontroller]( https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 
-
+[ESP32-DevKitC Arduino module wireing diagram ](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch-20180607a.pdf)
 
 
 ## PCB
@@ -19,6 +19,14 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 
 ![Pin Functions](docs/esp32_pinmap.png)
 
+## IO Pin counts
+
+There are 18 I/O pins availible for use in your programs with no external perpheral already using them.
+
+There are 22 I/O pins availible for use in your programs including the 4 output only strapping pins.
+
+There are 27 I/O pins availible for use in your programs by reusing the boot button pin, serial pins and i2c pins for other purposes. 
+
 ## Pins to Never Use:
 
 0       - This is the boot pin, if held low during a reset it will prevent the device from booting
@@ -27,13 +35,15 @@ ESP32 Microcontroller: https://www.espressif.com/sites/default/files/documentati
 
 1 and 3 -  these are used to program the device and are serial port pins.
 
-2 is a Strapping Pin on GPIO
+## Output Only Pins (Strapping pins for the core)
 
-## Output Only Pins
+These are strapping pins and have to be in known states at the time of the chip booting. If you use them as outputs, be careful to note the [ESP32-DevKitC Arduino module wireing diagram ](https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch-20180607a.pdf) for the pull up or down resistor states for each. When using these pins make sure the weak-pull resistor will not interfeare with your opperation, and do not add additional weak-pull resistors.
+
 ```
-13 
-15 
-5
+2  (pull down)
+13 (pull up)
+15 (pull up)
+5  (pull up)
 ```
 ## Input Only pins
 
