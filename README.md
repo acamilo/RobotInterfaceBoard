@@ -214,7 +214,7 @@ https://github.com/WPIRoboticsEngineering/RBE2002_template/releases/download/0.0
 And extract it on your computer in 
 
 ```
-C:/RBE-arduino
+C:/RBE-arduino-install/
 ```
 
 Make a sketchbook folder in C:/, or (R:/ on the lab machines) make a folder:
