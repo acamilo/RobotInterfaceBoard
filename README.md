@@ -315,25 +315,32 @@ PID
 
 * If its a MAC, this is the issue that causes us to say MacOS is UNSUPPORTED. Install Windows https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#how-to-get-windows-10-as-a-student-for-free-from-wpi
 
-* Make sure the USB Micro cable is a data cabel, not just a crappy USB charging cable with no data lines. 
+* Make sure the USB Micro cable is a data cable, not just a crappy USB charging cable with no data lines. 
 
 ### "It wont program..."
-
-* Unplug everything from all IO (If this fixes it, check the pins and voltages, also check for diode dead-shorts check https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#pins-to-never-use )
 
 * Use a lab supplied (or known good) USB Micro cable (if this works replace cable)
 
 * Program an example script using Lab computer   (if this works have them re-download the pre-packaged arduino from https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported ) 
 
-* Check to see if the processor or regulator is HOT. If it is, a dead-short or over-voltage event occured and the device is dead forever. Replace. 
+* Is the serial moniter open? CLose it and try again. 
+
+* Did it program earlier? Unplud the USB and plug it back in.
 
 * Hold Boot button and Strobe the enable button to set core into bootloader mode. Try to program. (If this helps, you are printing too much data to the serial port)
+
+* Unplug everything from all IO (If this fixes it, check the pins and voltages, also check for diode dead-shorts check https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#pins-to-never-use )
+
+* Check to see if the processor or regulator is HOT. If it is, a dead-short or over-voltage event occured and the device is dead forever. Replace. 
+
 
 ### "I can program it but it but it keeps rebooting over and over..."
 
 * Null pointers are the #1 cause of this behavior, use print statements to isolate the point where it reboots and check for null pointers. This is the issue 9 out of 10 times. 
 
 * Interrupt issues - Interrupts that access memory that is used by non-interrupt code without a mutex or semiphore. Try disabling the interrupt and if this fixed the reboot issue, then go ahead and implement the mutex locking. 
+
+* Something may also be plugged into one of the off-limits pins, or your code is reconfiguring and messing up one of these pins. See: https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#pins-to-never-use 
 
 ### "This processor seems more complicated than the Uno and the Mega, why are we using it?"
 
