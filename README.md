@@ -302,14 +302,34 @@ PID
 
 # FAQ and troubleshooting
 
+### "I dont see ESP32 as an option in Arduino when I try to select my board..."
+
+* Use a lab machine. This will not be a problem on the lab machines. 
+
+* You need to install the ESP 32 toolchain. See https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported
+
+
+### "I can compile the code but I do not have a serial port option in Arduino..."
+
+* Ensure the driver installed https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported
+
+* If its a MAC, this is the issue that causes us to say MacOS is UNSUPPORTED. Install Windows https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#how-to-get-windows-10-as-a-student-for-free-from-wpi
+
+* Make sure the USB Micro cable is a data cabel, not just a crappy USB charging cable with no data lines. 
+
 ### "It wont program..."
 
 * Unplug everything from all IO (If this fixes it, check the pins and voltages, also check for diode dead-shorts check https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#pins-to-never-use )
 * Use a lab supplied (or known good) USB Micro cable (if this works replace cable)
-* Program an example script using Lab computer   (if this works have them re-download the pre-packaged arduino from https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported ) (edited) 
+* Program an example script using Lab computer   (if this works have them re-download the pre-packaged arduino from https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported ) 
+* Check to see if the processor or regulator is HOT. If it is, a dead-short of over-voltage event occured and the device si dead forever. Replace. 
+
+* Hold Boot button and Strobe the enable button to set core into bootloader mode. Try to program. (If this helps, you are printing too much data to the serial port)
 
 ### "I can program it but it but it keeps rebooting over and over..."
 
 * Null pointers are the #1 cause of this behavior, use print statements to isolate the point where it reboots and check for null pointers. This is the issue 9 out of 10 times. 
 
-* Interrupt issues - Interrupts that access memory that is used by non-interrupt code without a mutex or semiphore
+* Interrupt issues - Interrupts that access memory that is used by non-interrupt code without a mutex or semiphore. Try disabling the interrupt and if this fixed the reboot issue, then go ahead and implement the mutex locking. 
+
+
