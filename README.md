@@ -27,6 +27,10 @@ There are 22 I/O pins availible for use in your programs including the 4 output 
 
 There are 27 I/O pins availible for use in your programs by reusing the boot button pin, serial pins and i2c pins for other purposes. 
 
+## User Button
+
+There is a button connected to pin 0 and is accessible to the users code as a button. If you hold it whild pressing the reset button, however, it will hold the chip in bootloader mode and it will not run your code until the core is reset or programmed over the USB. Once your code starts, this button is availible for use as a button in your code and pressing it will not effect the opperation of the core after your program has started.  
+
 ## Pins to Never Use:
 
 6-11    - These pins are hookups for external system flash and are used by the system flash. Unless you are extending the chips flash capibilities, do not use these. 
