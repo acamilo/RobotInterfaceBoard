@@ -302,7 +302,7 @@ PID
 
 # FAQ and troubleshooting
 
-### "I dont see ESP32 as an option in Arduino when I try to select my board..."
+### "I dont see 'ESP32 Dev Module' as an option in Arduino when I try to select my board..."
 
 * Use a lab machine. This will not be a problem on the lab machines. 
 
