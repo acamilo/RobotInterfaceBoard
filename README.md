@@ -29,8 +29,6 @@ There are 27 I/O pins availible for use in your programs by reusing the boot but
 
 ## Pins to Never Use:
 
-0       - This is the boot pin, if held low during a reset it will prevent the device from booting
-
 6-11    - These pins are hookups for external system flash and are used by the system flash. Unless you are extending the chips flash capibilities, do not use these. 
 
 1 and 3 -  these are used to program the device and are serial port pins.
@@ -68,19 +66,24 @@ These are strapping pins and have to be in known states at the time of the chip 
 ```
 ## External Use pins
 
+0       - This is the boot pin, if held low during a reset it will prevent the device from booting
+
 1 and 3 are the serial port used for programming and print statements. This should not be used for user functions, but can be used if serial functionality is needed.
 
 22 and 21 have 4.7kOhm pullups on them and are connected to the Wii accessory port. These can be used with other i2c devices.
 See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
 
 ## Availible Servo/PWM/AnalogWrite Pins
+
+The ESP32 can generate up to 16 simultanious Servo signels. 
+
 ```
-4
-5
-12-19
-21-23
-25-27
-32-33
+4     
+5    
+12-19 
+21-23 
+25-27 
+32-33 
 ```
 
 ### Timer distribution for PWM
