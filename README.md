@@ -299,3 +299,17 @@ WiiChuck
 DFRobotIRPosition
 
 PID
+
+# FAQ and troubleshooting
+
+### "It wont program..."
+
+* Unplug everything from all IO (If this fixes it, check the pins and voltages, also check for diode dead-shorts check https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#pins-to-never-use )
+* Use a lab supplied (or known good) USB Micro cable (if this works replace cable)
+* Program an example script using Lab computer   (if this works have them re-download the pre-packaged arduino from https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported ) (edited) 
+
+### "I can program it but it but it keeps rebooting over and over..."
+
+* Null pointers are the #1 cause of this behavior, use print statements to isolate the point where it reboots and check for null pointers. This is the issue 9 out of 10 times. 
+
+* Interrupt issues - Interrupts that access memory that is used by non-interrupt code without a mutex or semiphore
