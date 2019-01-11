@@ -320,9 +320,12 @@ PID
 ### "It wont program..."
 
 * Unplug everything from all IO (If this fixes it, check the pins and voltages, also check for diode dead-shorts check https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#pins-to-never-use )
+
 * Use a lab supplied (or known good) USB Micro cable (if this works replace cable)
+
 * Program an example script using Lab computer   (if this works have them re-download the pre-packaged arduino from https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#personal-computer-install-windows--supported ) 
-* Check to see if the processor or regulator is HOT. If it is, a dead-short of over-voltage event occured and the device si dead forever. Replace. 
+
+* Check to see if the processor or regulator is HOT. If it is, a dead-short or over-voltage event occured and the device is dead forever. Replace. 
 
 * Hold Boot button and Strobe the enable button to set core into bootloader mode. Try to program. (If this helps, you are printing too much data to the serial port)
 
