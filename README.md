@@ -220,9 +220,10 @@ https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vc
 
 
 ## Personal Computer install Windows  (Supported)
+
 download:
 
-https://github.com/WPIRoboticsEngineering/RBE2002_template/releases/download/0.0.1/RBE-arduino110718.zip
+https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/releases/download/rev5-1/RBE-arduino110718.zip
 
 And extract it on your computer in 
 
@@ -258,6 +259,19 @@ Mac instructions (NOT SUPPORTED BY RBE, HAS LOTS OF PROBLEMS):
 
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
 
+# Development Of your code
+
+Open Arduino IDE and Select your board:
+
+```
+Tools->Board->ESP32 Dev Module
+```
+
+And select your port:
+
+```
+Tools->Port-> (the port that your arduino is connected to)
+```
 
 # Arduino Libraries
 ## HOWTO
