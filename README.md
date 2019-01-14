@@ -259,9 +259,9 @@ Mac instructions (NOT SUPPORTED BY RBE, HAS LOTS OF PROBLEMS):
 
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
 
-# Development Of your code
+# Development of your code
 
-Open Arduino IDE and Select your board:
+After your Arduino is installed and the ESP32 toolchain is up and running, open Arduino IDE and Select your board:
 
 ```
 Tools->Board->ESP32 Dev Module
