@@ -13,8 +13,20 @@
     1. Install the driver
 1. Verify to compile the code
 1. Program and open serial moniter
-1. Make a branch for each developer
-1. Make issues for task deligation
+
+# Git Work flow
+
+## Once at the start of a project
+
+Make a branch for each developer
+
+## Decompose Problems into bite-sized issues
+
+### Make issues for task deligation
+
+### Issues for non-code tasks (Building and Wireing) 
+
+## Development Loop 
 1. Commit and push changes
     1. Commit message format
     1. One issue per commit, many commits per issue
