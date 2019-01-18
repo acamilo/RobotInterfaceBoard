@@ -13,6 +13,16 @@
     1. Install the driver
 1. Verify to compile the code
 1. Program and open serial moniter
+1. Make a branch for each developer
+1. Make issues for task deligation
+1. Commit and push changes
+    1. Commit message format
+    1. One issue per commit, many commits per issue
+    1. Issue numbers in commit messages
+1. Pull Request working changes to Master
+1. Pull Changes from Master
+    1. Merge Conflicts     
+    1. Push changes to your branch
 
     
   
