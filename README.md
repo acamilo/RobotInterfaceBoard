@@ -272,7 +272,6 @@ And select your port:
 ```
 Tools->Port-> (the port that your arduino is connected to)
 ```
-# Develop Code for your project
 
 ## (Optional) Install Eclipse on Personal Machine
 
