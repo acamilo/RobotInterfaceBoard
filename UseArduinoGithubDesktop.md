@@ -1,4 +1,5 @@
 1. Uninstall stale arduino
+1. Download and install RBE-Arduino
 1. Open Github Desktop
 1. Clone a Repository
 1. Open Directory Where Your Code Lives
