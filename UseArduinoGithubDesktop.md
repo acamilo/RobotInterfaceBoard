@@ -33,7 +33,8 @@ Make a branch for each developer
     1. Issue numbers in commit messages
 1. Pull Request working changes to Master
 1. Pull Changes from Master
-    1. Merge Conflicts     
+    1. Merge Conflicts  
+   ![Merge conflict procedure]( docs/48432565-95574500-e729-11e8-8f8b-cc73cd9209a3.gif)
     1. Push changes to your branch
 
     
