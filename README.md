@@ -252,7 +252,7 @@ C:/RBEArduino/
 
 Ubuntu 18.04 Instructions:
 
-[InstallToolchainOnUbuntu18-04.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallToolchainOnUbuntu18-04.md)
+[InstallToolchainOnUbuntu18-04.md](InstallToolchainOnUbuntu18-04.md)
 
 Ubuntu 16.04 Instructions:
 
