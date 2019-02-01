@@ -250,7 +250,11 @@ C:/RBEArduino/
 
 ## Personal Computer install Linux / Mac  (Unsupported)
 
-Linux Instructions (16.04 works well, 18.04 is a bit fiddely and needs extra steps but can be made to work):
+Ubuntu 18.04 Instructions:
+
+[InstallToolchainOnUbuntu18-04.md](InstallToolchainOnUbuntu18-04.md)
+
+Ubuntu 16.04 Instructions:
 
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_ubuntu.md
 
