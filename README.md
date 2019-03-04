@@ -21,9 +21,9 @@ The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Ardui
 
 ## IO Pin counts
 
-There are 18 I/O pins availible for use in your programs with no external perpheral already using them.
+There are 17 I/O pins availible for use in your programs with no external perpheral already using them.
 
-There are 22 I/O pins availible for use in your programs including the 4 output only strapping pins.
+There are 21 I/O pins availible for use in your programs including the 4 output only strapping pins.
 
 There are 27 I/O pins availible for use in your programs by reusing the boot button pin, serial pins and i2c pins for other purposes. 
 
@@ -81,6 +81,8 @@ These are strapping pins and have to be in known states at the time of the chip 
 
 22 and 21 have 4.7kOhm pullups on them and are connected to the Wii accessory port. These can be used with other i2c devices.
 See: https://github.com/acamilo/RobotInterfaceBoard/issues/31
+
+27 Is connected to the Wii header as controller detect. When the controller is connected, this is pulled to 3.3v. It is open when the controller is not connected.  
 
 ## Availible Servo/PWM/AnalogWrite Pins
 
