@@ -21,9 +21,9 @@ The Robot Interface Board (RIB) is a breakout board for the [ESP32-DevKitC Ardui
 
 ## IO Pin counts
 
-There are 17 I/O pins availible for use in your programs with no external perpheral already using them.
+There are 16 I/O pins availible for use in your programs with no external perpheral already using them.
 
-There are 21 I/O pins availible for use in your programs including the 4 output only strapping pins.
+There are 21 I/O pins availible for use in your programs including the 5 output only strapping pins.
 
 There are 27 I/O pins availible for use in your programs by reusing the boot button pin, serial pins and i2c pins for other purposes. 
 
