@@ -45,9 +45,10 @@ These are strapping pins and have to be in known states at the time of the chip 
 
 ```
 2  (pull down)
+5  (pull up)
+12 (pull down)
 13 (pull up)
 15 (pull up)
-5  (pull up)
 ```
 ## Input Only pins
 
