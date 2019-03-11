@@ -326,6 +326,8 @@ ESP32Encoder
 
 Adafruit_BNO055
 
+Adafruit Unified Sensor
+
 BNO055SimplePacketComs
 
 Esp32SimplePacketComs
