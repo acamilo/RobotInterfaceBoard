@@ -333,11 +333,8 @@ Esp32SimplePacketComs
 
 SimplePacketComs
 
-WiiChuck
-
 DFRobotIRPosition
 
-PID
 
 # FAQ and troubleshooting
 
