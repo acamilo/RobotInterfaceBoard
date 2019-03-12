@@ -14,7 +14,7 @@ Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 ```
 
-If you see anything other than 1.8.<something>, remove Java then install it from:
+If you see anything other than 1.8.something, remove Java then install it from:
   
 https://www.java.com/en/download/manual.jsp  
 
