@@ -83,3 +83,13 @@ Mine looks like:
 C:\Users\harrington\Documents\Arduino\libraries
 ```
 ![alt text](/docs/setPrivateFields.png)
+
+# Troubleshooting
+
+## arduinoPlugin\tools\make\make not found in PATH
+
+There can be a currupted download to the Make tools, if this error comes up follow these instructions to correct it
+Follow the instructions here : https://github.com/Sloeber/arduino-eclipse-plugin/issues/767
+
+
+
