@@ -65,7 +65,6 @@ These are strapping pins and have to be in known states at the time of the chip 
 
 ```
 4
-12
 14
 16-19
 21-23
