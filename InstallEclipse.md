@@ -84,6 +84,25 @@ C:\Users\harrington\Documents\Arduino\libraries
 ```
 ![alt text](/docs/setPrivateFields.png)
 
+# Doxygen and GraphViz
+### Windows Doxygen and GraphViz
+
+[Install Doxygen From here](http://doxygen.nl/files/doxygen-1.8.15-setup.exe)
+
+and [GraphViz from here](https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.msi)
+
+Then use [these instructins]( https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) to set add GraphViz to the path
+
+```
+C:\Program Files (x86)\Graphviz2.38\bin
+```
+
+### Ubuntu Doxygen and GraphViz
+
+```
+sudo apt install doxygen
+```
+
 # Troubleshooting
 
 ## arduinoPlugin\tools\make\make not found in PATH
