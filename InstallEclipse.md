@@ -102,6 +102,21 @@ C:\Program Files (x86)\Graphviz2.38\bin
 ```
 sudo apt install doxygen
 ```
+## After the native Doxygen, install the plugin
+
+In eclipse
+
+```
+Help->Eclipse Marketplace...
+```
+
+Search for 
+
+```
+eclox
+```
+
+and install it. 
 
 # Troubleshooting
 
