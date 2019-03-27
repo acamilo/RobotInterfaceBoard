@@ -1,3 +1,9 @@
+# Install Eclipse first
+
+ [See Eclipse install instructions in InstallEclipse.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
+
+# Set up an eclipse project
+
 In eclipse, open 
 ```
 Window->Show View-> Other -> Git ->Git Repositories
