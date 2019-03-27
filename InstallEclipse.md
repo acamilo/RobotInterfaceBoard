@@ -118,6 +118,11 @@ eclox
 
 and install it. 
 
+# Setup your project
+
+ [Open Projects in Eclipse using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
+
+
 # Troubleshooting
 
 ## arduinoPlugin\tools\make\make not found in PATH
