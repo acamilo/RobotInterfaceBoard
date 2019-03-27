@@ -87,9 +87,9 @@ C:\Users\harrington\Documents\Arduino\libraries
 # Doxygen and GraphViz
 ### Windows Doxygen and GraphViz
 
-[Install Doxygen From here](http://doxygen.nl/files/doxygen-1.8.15-setup.exe)
+[Install Doxygen From these instructions](http://www.doxygen.nl/download.html)  or [the direct link](http://doxygen.nl/files/doxygen-1.8.15-setup.exe)
 
-and [GraphViz from here](https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.msi)
+and [GraphViz from here](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
 
 Then use [these instructins]( https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) to set add GraphViz to the path
 
