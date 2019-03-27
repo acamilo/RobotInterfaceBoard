@@ -1,4 +1,4 @@
-# Make Sure you have Java 8, not 9, 10, or 11
+# Make Sure you have Java 8, **not 9, 10, or 11**
 
 Check your java version by opening CMD and typing 
 
