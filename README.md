@@ -249,6 +249,19 @@ Open the Preferences in Arduino and set the Sketchbook location to:
 ```
 C:/RBEArduino/
 ```
+Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
+
+After your Arduino is installed and the ESP32 toolchain is up and running, open Arduino IDE and Select your board:
+
+```
+Tools->Board->ESP32 Dev Module
+```
+
+And select your port:
+
+```
+Tools->Port-> (the port that your arduino is connected to)
+```
 
 ## Personal Computer install Linux / Mac  (Unsupported)
 
@@ -264,22 +277,6 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_u
 Mac instructions (NOT SUPPORTED BY RBE, HAS LOTS OF PROBLEMS):
 
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
-
-# Development of your code
-
-Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
-
-After your Arduino is installed and the ESP32 toolchain is up and running, open Arduino IDE and Select your board:
-
-```
-Tools->Board->ESP32 Dev Module
-```
-
-And select your port:
-
-```
-Tools->Port-> (the port that your arduino is connected to)
-```
 
 
 ## Install Eclipse And Setup Eclipse on Personal Machine
