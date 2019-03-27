@@ -106,7 +106,7 @@ Messages should consist of 60 charrectors of short description describing what c
 
 When you have chages to share with your team, first Right click on the repository and select "Pull". Merge any changes your team mates made and published to upstream. Then commit the merge (or commit nothing if the merge was clean) and push your changes to the upstream server.
 
-Once you have pushed your changes, be sure to verify that they are on GitHub. On your repository, go to
+Once you have pushed your changes, be sure to verify that they are on the GitHub.com website in Firefox. On your repository, go to
 ```
 Insights->Network
 ```
