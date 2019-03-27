@@ -54,6 +54,8 @@ RBE2002Code20
 
 Hit next then select the ESP32 toolchain. 
 
+![alt text](/docs/setESPConfigs.png)
+
 ```
 Board: ESP32 Dev Module
 Upload Protocol: Default
@@ -67,7 +69,7 @@ PSRAM: Disabled
 Upload Speed: 921600
 ```
 
-![alt text](/docs/ESP32-setup.png)
+
 
 Then hit next and select Default ino file
 
