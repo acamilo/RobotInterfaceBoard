@@ -212,8 +212,6 @@ https://www.youtube.com/watch?v=aTVOTY93XXU
 
 # Arduino and the ESP32 Toolchain
 
-## Driver
-
 This is installed on the lab machines already. 
 
 After extracting the Zip file, install the 64 bit version of the driver. 
@@ -221,9 +219,7 @@ After extracting the Zip file, install the 64 bit version of the driver.
 https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 
 
-## Personal Computer install Windows  (Supported)
-
-download:
+Arduino IDE download :
 
 https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/releases/download/rev5-1/RBE-arduino110718.zip
 
