@@ -42,13 +42,13 @@ New->Arduino Sketch
 Un-check the default location, and seclect where you just cloned your code. Mine looks like: 
 
 ```
-R:\git\RBE2002Code21
+R:\git\RBE2002Code20
 ```
 
 Give it the name:
 
 ```
-RBE2002Code21
+RBE2002Code20
 ```
 ![alt text](/docs/setNameAndSourceLocation.png)
 
