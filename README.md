@@ -267,6 +267,8 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
 
 # Development of your code
 
+Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
+
 After your Arduino is installed and the ESP32 toolchain is up and running, open Arduino IDE and Select your board:
 
 ```
@@ -279,18 +281,12 @@ And select your port:
 Tools->Port-> (the port that your arduino is connected to)
 ```
 
-## (Optional) Install Eclipse on Personal Machine
+
+## Install Eclipse And Setup Eclipse on Personal Machine
 
  [See Eclipse install instructions in InstallEclipse.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
-
-## Clone your project
-You may either 
-
-Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
-
-or
  
-(Optional) Use Eclipse [using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
+ [Open Projects in Eclipse using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
 
 # Arduino Libraries
 ## HOWTO
