@@ -1,4 +1,4 @@
-# First Install Eclipse/Sloeaber/Doxygen 
+# First Install Eclipse/Sloeber/Doxygen 
 
  [See Eclipse install instructions in InstallEclipse.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
 
