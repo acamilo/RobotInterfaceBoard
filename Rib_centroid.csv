@@ -1,16 +1,37 @@
-Screaming Circuits SMD component position file.,,,,
-Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.,,,,
-,,,,
-"Centroid Data for pc board: ""Rib.brd"" as of: 3/2/2018 11:31 AM",,,,
-Measurements are in inches. Comma delimited,,,,
-Only surface mount components included,,,,
-,,,,
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "Rib-BabyBack.brd" as of: 8/2/18 12:14 PM
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
 RefDes,Layer,LocationX,LocationY,Rotation
-C1,Top,0.305,2.685,90
-C2,Top,0.425,2.685,90
-C3,Top,3.113,2.358,270
-C4,Top,3.004,2.358,270
-F1,Top,0.11,2.19,90
-F2,Top,2.77,2.196,90
-IC1,Top,0.385,2.39,180
-IC2,Top,3.003,2.632,0
+C1,Top,1.095,2.665,180
+C2,Top,1.125,2.845,90
+D1,Top,1.230,2.760,180
+F4,Top,2.237,2.377,0
+IC1,Top,1.440,2.765,270
+J1,Top,0.715,2.845,180
+JP2,Top,0.665,1.250,90
+JP3,Top,0.340,1.250,90
+JP4,Top,0.240,1.250,90
+JP5,Top,0.140,1.250,90
+JP6,Top,0.840,1.250,90
+JP7,Top,1.840,1.250,90
+JP8,Top,2.015,1.250,90
+JP9,Top,0.500,0.540,90
+JP17,Top,2.340,1.250,90
+JP18,Top,2.440,1.250,90
+JP19,Top,2.540,1.250,90
+LED1,Top,1.247,2.597,0
+LED2,Top,0.940,2.650,180
+LED3,Top,1.040,2.900,270
+LED4,Top,0.470,0.850,90
+PTC,Top,1.230,2.897,270
+R1,Top,1.367,2.597,0
+R2,Top,0.820,2.650,180
+R3,Top,1.040,2.780,270
+R4,Top,0.540,0.850,270
+R5,Top,1.729,2.587,0
+R6,Top,1.729,2.530,0
+SW1,Top,0.390,2.500,0
