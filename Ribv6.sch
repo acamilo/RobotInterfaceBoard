@@ -1263,4 +1263,530 @@ Wire Wire Line
 Connection ~ 1800 2800
 Text Notes 2650 3250 0    50   ~ 0
 fuse blown indicator
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+U 1 1 5D14D51C
+P 4750 5800
+F 0 "J?" V 4800 5412 50  0000 R CNN
+F 1 "Conn_02x07_Counter_Clockwise" V 4845 6180 50  0001 L CNN
+F 2 "" H 4750 5800 50  0001 C CNN
+F 3 "~" H 4750 5800 50  0001 C CNN
+	1    4750 5800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+U 1 1 5D14FAAC
+P 4750 5100
+F 0 "J?" V 4800 4712 50  0000 R CNN
+F 1 "Conn_02x07_Counter_Clockwise" V 4845 5480 50  0001 L CNN
+F 2 "" H 4750 5100 50  0001 C CNN
+F 3 "~" H 4750 5100 50  0001 C CNN
+	1    4750 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+U 1 1 5D150C16
+P 5700 5800
+F 0 "J?" V 5750 5412 50  0000 R CNN
+F 1 "Conn_02x07_Counter_Clockwise" V 5795 6180 50  0001 L CNN
+F 2 "" H 5700 5800 50  0001 C CNN
+F 3 "~" H 5700 5800 50  0001 C CNN
+	1    5700 5800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+U 1 1 5D15256C
+P 5700 5100
+F 0 "J?" V 5750 4712 50  0000 R CNN
+F 1 "Conn_02x07_Counter_Clockwise" V 5795 5480 50  0001 L CNN
+F 2 "" H 5700 5100 50  0001 C CNN
+F 3 "~" H 5700 5100 50  0001 C CNN
+	1    5700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D153B3D
+P 4400 5450
+F 0 "#PWR?" H 4400 5300 50  0001 C CNN
+F 1 "+3.3V" V 4415 5578 50  0000 L CNN
+F 2 "" H 4400 5450 50  0001 C CNN
+F 3 "" H 4400 5450 50  0001 C CNN
+	1    4400 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D1555A9
+P 6150 5450
+F 0 "#PWR?" H 6150 5300 50  0001 C CNN
+F 1 "+5V" V 6165 5578 50  0000 L CNN
+F 2 "" H 6150 5450 50  0001 C CNN
+F 3 "" H 6150 5450 50  0001 C CNN
+	1    6150 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D156A4A
+P 4300 4800
+F 0 "#PWR?" H 4300 4550 50  0001 C CNN
+F 1 "GND" H 4305 4627 50  0000 C CNN
+F 2 "" H 4300 4800 50  0001 C CNN
+F 3 "" H 4300 4800 50  0001 C CNN
+	1    4300 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 4800 6000 4900
+Wire Wire Line
+	4300 4800 4450 4800
+Wire Wire Line
+	5900 4900 5900 4800
+Connection ~ 5900 4800
+Wire Wire Line
+	5900 4800 6000 4800
+Wire Wire Line
+	5800 4900 5800 4800
+Connection ~ 5800 4800
+Wire Wire Line
+	5800 4800 5900 4800
+Connection ~ 5700 4800
+Wire Wire Line
+	5700 4800 5800 4800
+Wire Wire Line
+	5700 4800 5700 4900
+Wire Wire Line
+	5600 4900 5600 4800
+Connection ~ 5600 4800
+Wire Wire Line
+	5600 4800 5700 4800
+Wire Wire Line
+	5500 4900 5500 4800
+Connection ~ 5500 4800
+Wire Wire Line
+	5500 4800 5600 4800
+Wire Wire Line
+	5400 4900 5400 4800
+Connection ~ 5400 4800
+Wire Wire Line
+	5400 4800 5500 4800
+Wire Wire Line
+	5050 4900 5050 4800
+Connection ~ 5050 4800
+Wire Wire Line
+	5050 4800 5400 4800
+Wire Wire Line
+	4950 4900 4950 4800
+Connection ~ 4950 4800
+Wire Wire Line
+	4950 4800 5050 4800
+Wire Wire Line
+	4850 4900 4850 4800
+Connection ~ 4850 4800
+Wire Wire Line
+	4850 4800 4950 4800
+Wire Wire Line
+	4750 4900 4750 4800
+Connection ~ 4750 4800
+Wire Wire Line
+	4750 4800 4850 4800
+Wire Wire Line
+	4650 4900 4650 4800
+Connection ~ 4650 4800
+Wire Wire Line
+	4650 4800 4750 4800
+Wire Wire Line
+	4550 4900 4550 4800
+Connection ~ 4550 4800
+Wire Wire Line
+	4550 4800 4650 4800
+Wire Wire Line
+	4450 4900 4450 4800
+Connection ~ 4450 4800
+Wire Wire Line
+	4450 4800 4550 4800
+Wire Wire Line
+	6150 5450 6000 5450
+Wire Wire Line
+	5400 5450 5400 5400
+Wire Wire Line
+	5500 5400 5500 5450
+Connection ~ 5500 5450
+Wire Wire Line
+	5500 5450 5400 5450
+Wire Wire Line
+	5600 5400 5600 5450
+Connection ~ 5600 5450
+Wire Wire Line
+	5600 5450 5500 5450
+Wire Wire Line
+	5700 5400 5700 5450
+Connection ~ 5700 5450
+Wire Wire Line
+	5700 5450 5600 5450
+Wire Wire Line
+	5800 5400 5800 5450
+Connection ~ 5800 5450
+Wire Wire Line
+	5800 5450 5700 5450
+Wire Wire Line
+	5900 5400 5900 5450
+Connection ~ 5900 5450
+Wire Wire Line
+	5900 5450 5800 5450
+Wire Wire Line
+	6000 5400 6000 5450
+Connection ~ 6000 5450
+Wire Wire Line
+	6000 5450 5900 5450
+Wire Wire Line
+	5050 5400 5050 5450
+Wire Wire Line
+	5050 5450 4950 5450
+Wire Wire Line
+	4450 5400 4450 5450
+Connection ~ 4450 5450
+Wire Wire Line
+	4450 5450 4400 5450
+Wire Wire Line
+	4550 5400 4550 5450
+Connection ~ 4550 5450
+Wire Wire Line
+	4550 5450 4450 5450
+Wire Wire Line
+	4650 5400 4650 5450
+Connection ~ 4650 5450
+Wire Wire Line
+	4650 5450 4550 5450
+Wire Wire Line
+	4750 5400 4750 5450
+Connection ~ 4750 5450
+Wire Wire Line
+	4750 5450 4650 5450
+Wire Wire Line
+	4850 5400 4850 5450
+Connection ~ 4850 5450
+Wire Wire Line
+	4850 5450 4750 5450
+Wire Wire Line
+	4950 5400 4950 5450
+Connection ~ 4950 5450
+Wire Wire Line
+	4950 5450 4850 5450
+Text GLabel 6100 5550 2    50   Input ~ 0
+SDA_5
+Text GLabel 6100 6150 2    50   Input ~ 0
+SCL_5
+Wire Wire Line
+	6100 5550 6000 5550
+Wire Wire Line
+	5400 5550 5400 5600
+Wire Wire Line
+	5500 5600 5500 5550
+Connection ~ 5500 5550
+Wire Wire Line
+	5500 5550 5400 5550
+Wire Wire Line
+	5600 5600 5600 5550
+Connection ~ 5600 5550
+Wire Wire Line
+	5600 5550 5500 5550
+Wire Wire Line
+	5700 5600 5700 5550
+Connection ~ 5700 5550
+Wire Wire Line
+	5700 5550 5600 5550
+Wire Wire Line
+	5800 5600 5800 5550
+Connection ~ 5800 5550
+Wire Wire Line
+	5800 5550 5700 5550
+Wire Wire Line
+	5900 5600 5900 5550
+Connection ~ 5900 5550
+Wire Wire Line
+	5900 5550 5800 5550
+Wire Wire Line
+	6000 5600 6000 5550
+Connection ~ 6000 5550
+Wire Wire Line
+	6000 5550 5900 5550
+Wire Wire Line
+	6100 6150 6000 6150
+Wire Wire Line
+	5400 6150 5400 6100
+Wire Wire Line
+	5500 6100 5500 6150
+Connection ~ 5500 6150
+Wire Wire Line
+	5500 6150 5400 6150
+Wire Wire Line
+	5600 6100 5600 6150
+Connection ~ 5600 6150
+Wire Wire Line
+	5600 6150 5500 6150
+Wire Wire Line
+	5700 6100 5700 6150
+Connection ~ 5700 6150
+Wire Wire Line
+	5700 6150 5600 6150
+Wire Wire Line
+	5800 6100 5800 6150
+Connection ~ 5800 6150
+Wire Wire Line
+	5800 6150 5700 6150
+Wire Wire Line
+	5900 6100 5900 6150
+Connection ~ 5900 6150
+Wire Wire Line
+	5900 6150 5800 6150
+Wire Wire Line
+	6000 6100 6000 6150
+Connection ~ 6000 6150
+Wire Wire Line
+	6000 6150 5900 6150
+Text GLabel 4350 5550 0    50   Input ~ 0
+SDA_33
+Text GLabel 4350 6150 0    50   Input ~ 0
+SCL_33
+Wire Wire Line
+	4350 6150 4450 6150
+Wire Wire Line
+	5050 6150 5050 6100
+Wire Wire Line
+	4950 6100 4950 6150
+Connection ~ 4950 6150
+Wire Wire Line
+	4950 6150 5050 6150
+Wire Wire Line
+	4850 6100 4850 6150
+Connection ~ 4850 6150
+Wire Wire Line
+	4850 6150 4950 6150
+Wire Wire Line
+	4750 6100 4750 6150
+Connection ~ 4750 6150
+Wire Wire Line
+	4750 6150 4850 6150
+Wire Wire Line
+	4650 6100 4650 6150
+Connection ~ 4650 6150
+Wire Wire Line
+	4650 6150 4750 6150
+Wire Wire Line
+	4550 6100 4550 6150
+Connection ~ 4550 6150
+Wire Wire Line
+	4550 6150 4650 6150
+Wire Wire Line
+	4450 6100 4450 6150
+Connection ~ 4450 6150
+Wire Wire Line
+	4450 6150 4550 6150
+Wire Wire Line
+	4350 5550 4450 5550
+Wire Wire Line
+	5050 5550 5050 5600
+Wire Wire Line
+	4950 5550 4950 5600
+Connection ~ 4950 5550
+Wire Wire Line
+	4950 5550 5050 5550
+Wire Wire Line
+	4850 5550 4850 5600
+Connection ~ 4850 5550
+Wire Wire Line
+	4850 5550 4950 5550
+Wire Wire Line
+	4750 5550 4750 5600
+Connection ~ 4750 5550
+Wire Wire Line
+	4750 5550 4850 5550
+Wire Wire Line
+	4650 5550 4650 5600
+Connection ~ 4650 5550
+Wire Wire Line
+	4650 5550 4750 5550
+Wire Wire Line
+	4550 5550 4550 5600
+Connection ~ 4550 5550
+Wire Wire Line
+	4550 5550 4650 5550
+Wire Wire Line
+	4450 5550 4450 5600
+Connection ~ 4450 5550
+Wire Wire Line
+	4450 5550 4550 5550
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D646896
+P 8600 5350
+F 0 "Q?" V 8851 5350 50  0000 C CNN
+F 1 "BSS138" V 8942 5350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 5275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8600 5350 50  0001 L CNN
+	1    8600 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D648215
+P 8250 5300
+F 0 "R?" V 8300 5150 50  0000 C CNN
+F 1 "10k" V 8145 5300 50  0001 C CNN
+F 2 "" H 8250 5300 50  0001 C CNN
+F 3 "~" H 8250 5300 50  0001 C CNN
+	1    8250 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D64877B
+P 8950 5300
+F 0 "R?" V 9000 5150 50  0000 C CNN
+F 1 "10k" V 8845 5300 50  0001 C CNN
+F 2 "" H 8950 5300 50  0001 C CNN
+F 3 "~" H 8950 5300 50  0001 C CNN
+	1    8950 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D64B10F
+P 8950 5000
+F 0 "#PWR?" H 8950 4850 50  0001 C CNN
+F 1 "+5V" V 8965 5128 50  0000 L CNN
+F 2 "" H 8950 5000 50  0001 C CNN
+F 3 "" H 8950 5000 50  0001 C CNN
+	1    8950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D64BE33
+P 8250 5000
+F 0 "#PWR?" H 8250 4850 50  0001 C CNN
+F 1 "+3.3V" V 8265 5128 50  0000 L CNN
+F 2 "" H 8250 5000 50  0001 C CNN
+F 3 "" H 8250 5000 50  0001 C CNN
+	1    8250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5450 8250 5450
+Wire Wire Line
+	8250 5400 8250 5450
+Connection ~ 8250 5450
+Wire Wire Line
+	8250 5450 8050 5450
+Wire Wire Line
+	8250 5100 8250 5200
+Wire Wire Line
+	8800 5450 8950 5450
+Wire Wire Line
+	8950 5400 8950 5450
+Connection ~ 8950 5450
+Wire Wire Line
+	8950 5450 9150 5450
+Wire Wire Line
+	8600 5150 8600 5100
+Wire Wire Line
+	8600 5100 8250 5100
+Connection ~ 8250 5100
+Wire Wire Line
+	8250 5000 8250 5100
+Wire Wire Line
+	8950 5000 8950 5200
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D7605D3
+P 8600 4450
+F 0 "Q?" V 8851 4450 50  0000 C CNN
+F 1 "BSS138" V 8942 4450 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 4375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8600 4450 50  0001 L CNN
+	1    8600 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7605D9
+P 8250 4400
+F 0 "R?" V 8300 4250 50  0000 C CNN
+F 1 "10k" V 8145 4400 50  0001 C CNN
+F 2 "" H 8250 4400 50  0001 C CNN
+F 3 "~" H 8250 4400 50  0001 C CNN
+	1    8250 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7605DF
+P 8950 4400
+F 0 "R?" V 9000 4250 50  0000 C CNN
+F 1 "10k" V 8845 4400 50  0001 C CNN
+F 2 "" H 8950 4400 50  0001 C CNN
+F 3 "~" H 8950 4400 50  0001 C CNN
+	1    8950 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7605E5
+P 8950 4100
+F 0 "#PWR?" H 8950 3950 50  0001 C CNN
+F 1 "+5V" V 8965 4228 50  0000 L CNN
+F 2 "" H 8950 4100 50  0001 C CNN
+F 3 "" H 8950 4100 50  0001 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D7605EB
+P 8250 4100
+F 0 "#PWR?" H 8250 3950 50  0001 C CNN
+F 1 "+3.3V" V 8265 4228 50  0000 L CNN
+F 2 "" H 8250 4100 50  0001 C CNN
+F 3 "" H 8250 4100 50  0001 C CNN
+	1    8250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4550 8250 4550
+Wire Wire Line
+	8250 4500 8250 4550
+Connection ~ 8250 4550
+Wire Wire Line
+	8250 4550 8050 4550
+Wire Wire Line
+	8250 4200 8250 4300
+Wire Wire Line
+	8800 4550 8950 4550
+Wire Wire Line
+	8950 4500 8950 4550
+Connection ~ 8950 4550
+Wire Wire Line
+	8950 4550 9150 4550
+Wire Wire Line
+	8600 4250 8600 4200
+Wire Wire Line
+	8600 4200 8250 4200
+Connection ~ 8250 4200
+Wire Wire Line
+	8250 4100 8250 4200
+Wire Wire Line
+	8950 4100 8950 4300
+Text GLabel 8050 4550 0    50   Input ~ 0
+SDA_33
+Text GLabel 8050 5450 0    50   Input ~ 0
+SCL_33
+Text GLabel 9150 4550 2    50   Input ~ 0
+SDA_5
+Text GLabel 9150 5450 2    50   Input ~ 0
+SCL_5
 $EndSCHEMATC
