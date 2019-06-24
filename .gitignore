@@ -42,7 +42,4 @@ eagle.epf
 # file locks introduced since 7.x
 *.lck
 
-sym-lib-table
-_autosave-Ribv6.sch
-Ribv6-cache.lib
-Ribv6.bak
+/.project

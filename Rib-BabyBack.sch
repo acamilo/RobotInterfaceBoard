@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7115,25 +7115,6 @@ They will be floating when the esp is plugged in.</text>
 <pinref part="JP9" gate="1" pin="3"/>
 <wire x1="-76.2" y1="-210.82" x2="-76.2" y2="-215.9" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="JP4" gate="G$1" pin="15"/>
-<pinref part="JP4" gate="G$1" pin="19"/>
-<wire x1="-22.86" y1="-91.44" x2="-22.86" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="-93.98" x2="-22.86" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="-96.52" x2="-22.86" y2="-99.06" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="-99.06" x2="-22.86" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="-101.6" x2="-22.86" y2="-106.68" width="0.1524" layer="91"/>
-<junction x="-22.86" y="-101.6"/>
-<pinref part="JP4" gate="G$1" pin="16"/>
-<junction x="-22.86" y="-93.98"/>
-<pinref part="JP4" gate="G$1" pin="17"/>
-<junction x="-22.86" y="-96.52"/>
-<pinref part="JP4" gate="G$1" pin="18"/>
-<junction x="-22.86" y="-99.06"/>
-<pinref part="JP4" gate="G$1" pin="14"/>
-<wire x1="-22.86" y1="-88.9" x2="-22.86" y2="-91.44" width="0.1524" layer="91"/>
-<junction x="-22.86" y="-91.44"/>
-</segment>
 </net>
 <net name="LIPORAW" class="0">
 <segment>
@@ -7357,6 +7338,24 @@ They will be floating when the esp is plugged in.</text>
 <wire x1="-22.86" y1="-83.82" x2="-22.86" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-83.82"/>
 <pinref part="JP4" gate="G$1" pin="13"/>
+<pinref part="JP4" gate="G$1" pin="15"/>
+<pinref part="JP4" gate="G$1" pin="19"/>
+<wire x1="-22.86" y1="-91.44" x2="-22.86" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-93.98" x2="-22.86" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-96.52" x2="-22.86" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-99.06" x2="-22.86" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="16"/>
+<junction x="-22.86" y="-93.98"/>
+<pinref part="JP4" gate="G$1" pin="17"/>
+<junction x="-22.86" y="-96.52"/>
+<pinref part="JP4" gate="G$1" pin="18"/>
+<junction x="-22.86" y="-99.06"/>
+<pinref part="JP4" gate="G$1" pin="14"/>
+<wire x1="-22.86" y1="-88.9" x2="-22.86" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-91.44"/>
+<wire x1="-22.86" y1="-86.36" x2="-22.86" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-86.36"/>
+<junction x="-22.86" y="-88.9"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="1" pin="2"/>
