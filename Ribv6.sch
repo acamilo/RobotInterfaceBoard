@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:Ribv6-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -1789,4 +1789,508 @@ Text GLabel 9150 4550 2    50   Input ~ 0
 SDA_5
 Text GLabel 9150 5450 2    50   Input ~ 0
 SCL_5
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D7A4F4A
+P 8600 6350
+F 0 "Q?" V 8851 6350 50  0000 C CNN
+F 1 "BSS138" V 8942 6350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 6275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8600 6350 50  0001 L CNN
+	1    8600 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7A4F50
+P 8250 6300
+F 0 "R?" V 8300 6150 50  0000 C CNN
+F 1 "10k" V 8145 6300 50  0001 C CNN
+F 2 "" H 8250 6300 50  0001 C CNN
+F 3 "~" H 8250 6300 50  0001 C CNN
+	1    8250 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7A4F56
+P 8950 6300
+F 0 "R?" V 9000 6150 50  0000 C CNN
+F 1 "10k" V 8845 6300 50  0001 C CNN
+F 2 "" H 8950 6300 50  0001 C CNN
+F 3 "~" H 8950 6300 50  0001 C CNN
+	1    8950 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7A4F5C
+P 8950 6000
+F 0 "#PWR?" H 8950 5850 50  0001 C CNN
+F 1 "+5V" V 8965 6128 50  0000 L CNN
+F 2 "" H 8950 6000 50  0001 C CNN
+F 3 "" H 8950 6000 50  0001 C CNN
+	1    8950 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D7A4F62
+P 8250 6000
+F 0 "#PWR?" H 8250 5850 50  0001 C CNN
+F 1 "+3.3V" V 8265 6128 50  0000 L CNN
+F 2 "" H 8250 6000 50  0001 C CNN
+F 3 "" H 8250 6000 50  0001 C CNN
+	1    8250 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 6450 8250 6450
+Wire Wire Line
+	8250 6400 8250 6450
+Connection ~ 8250 6450
+Wire Wire Line
+	8250 6450 8050 6450
+Wire Wire Line
+	8250 6100 8250 6200
+Wire Wire Line
+	8800 6450 8950 6450
+Wire Wire Line
+	8950 6400 8950 6450
+Connection ~ 8950 6450
+Wire Wire Line
+	8950 6450 9150 6450
+Wire Wire Line
+	8600 6150 8600 6100
+Wire Wire Line
+	8600 6100 8250 6100
+Connection ~ 8250 6100
+Wire Wire Line
+	8250 6000 8250 6100
+Wire Wire Line
+	8950 6000 8950 6200
+Text GLabel 8050 6450 0    50   Input ~ 0
+GPIO19
+Text GLabel 9150 6450 2    50   Input ~ 0
+GPIO19_5
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D7C947E
+P 8600 7300
+F 0 "Q?" V 8851 7300 50  0000 C CNN
+F 1 "BSS138" V 8942 7300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 7225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8600 7300 50  0001 L CNN
+	1    8600 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7C9484
+P 8250 7250
+F 0 "R?" V 8300 7100 50  0000 C CNN
+F 1 "10k" V 8145 7250 50  0001 C CNN
+F 2 "" H 8250 7250 50  0001 C CNN
+F 3 "~" H 8250 7250 50  0001 C CNN
+	1    8250 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7C948A
+P 8950 7250
+F 0 "R?" V 9000 7100 50  0000 C CNN
+F 1 "10k" V 8845 7250 50  0001 C CNN
+F 2 "" H 8950 7250 50  0001 C CNN
+F 3 "~" H 8950 7250 50  0001 C CNN
+	1    8950 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7C9490
+P 8950 6950
+F 0 "#PWR?" H 8950 6800 50  0001 C CNN
+F 1 "+5V" V 8965 7078 50  0000 L CNN
+F 2 "" H 8950 6950 50  0001 C CNN
+F 3 "" H 8950 6950 50  0001 C CNN
+	1    8950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D7C9496
+P 8250 6950
+F 0 "#PWR?" H 8250 6800 50  0001 C CNN
+F 1 "+3.3V" V 8265 7078 50  0000 L CNN
+F 2 "" H 8250 6950 50  0001 C CNN
+F 3 "" H 8250 6950 50  0001 C CNN
+	1    8250 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 7400 8250 7400
+Wire Wire Line
+	8250 7350 8250 7400
+Connection ~ 8250 7400
+Wire Wire Line
+	8250 7400 8050 7400
+Wire Wire Line
+	8250 7050 8250 7150
+Wire Wire Line
+	8800 7400 8950 7400
+Wire Wire Line
+	8950 7350 8950 7400
+Connection ~ 8950 7400
+Wire Wire Line
+	8950 7400 9150 7400
+Wire Wire Line
+	8600 7100 8600 7050
+Wire Wire Line
+	8600 7050 8250 7050
+Connection ~ 8250 7050
+Wire Wire Line
+	8250 6950 8250 7050
+Wire Wire Line
+	8950 6950 8950 7150
+Text GLabel 8050 7400 0    50   Input ~ 0
+GPIO18
+Text GLabel 9150 7400 2    50   Input ~ 0
+GPIO18_5
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D7EE936
+P 8600 8250
+F 0 "Q?" V 8851 8250 50  0000 C CNN
+F 1 "BSS138" V 8942 8250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 8175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8600 8250 50  0001 L CNN
+	1    8600 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7EE93C
+P 8250 8200
+F 0 "R?" V 8300 8050 50  0000 C CNN
+F 1 "10k" V 8145 8200 50  0001 C CNN
+F 2 "" H 8250 8200 50  0001 C CNN
+F 3 "~" H 8250 8200 50  0001 C CNN
+	1    8250 8200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D7EE942
+P 8950 8200
+F 0 "R?" V 9000 8050 50  0000 C CNN
+F 1 "10k" V 8845 8200 50  0001 C CNN
+F 2 "" H 8950 8200 50  0001 C CNN
+F 3 "~" H 8950 8200 50  0001 C CNN
+	1    8950 8200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7EE948
+P 8950 7900
+F 0 "#PWR?" H 8950 7750 50  0001 C CNN
+F 1 "+5V" V 8965 8028 50  0000 L CNN
+F 2 "" H 8950 7900 50  0001 C CNN
+F 3 "" H 8950 7900 50  0001 C CNN
+	1    8950 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D7EE94E
+P 8250 7900
+F 0 "#PWR?" H 8250 7750 50  0001 C CNN
+F 1 "+3.3V" V 8265 8028 50  0000 L CNN
+F 2 "" H 8250 7900 50  0001 C CNN
+F 3 "" H 8250 7900 50  0001 C CNN
+	1    8250 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 8350 8250 8350
+Wire Wire Line
+	8250 8300 8250 8350
+Connection ~ 8250 8350
+Wire Wire Line
+	8250 8350 8050 8350
+Wire Wire Line
+	8250 8000 8250 8100
+Wire Wire Line
+	8800 8350 8950 8350
+Wire Wire Line
+	8950 8300 8950 8350
+Connection ~ 8950 8350
+Wire Wire Line
+	8950 8350 9150 8350
+Wire Wire Line
+	8600 8050 8600 8000
+Wire Wire Line
+	8600 8000 8250 8000
+Connection ~ 8250 8000
+Wire Wire Line
+	8250 7900 8250 8000
+Wire Wire Line
+	8950 7900 8950 8100
+Text GLabel 8050 8350 0    50   Input ~ 0
+GPIO17
+Text GLabel 9150 8350 2    50   Input ~ 0
+GPIO17_5
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D817511
+P 10550 8250
+F 0 "Q?" V 10801 8250 50  0000 C CNN
+F 1 "BSS138" V 10892 8250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10750 8175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10550 8250 50  0001 L CNN
+	1    10550 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D817517
+P 10200 8200
+F 0 "R?" V 10250 8050 50  0000 C CNN
+F 1 "10k" V 10095 8200 50  0001 C CNN
+F 2 "" H 10200 8200 50  0001 C CNN
+F 3 "~" H 10200 8200 50  0001 C CNN
+	1    10200 8200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D81751D
+P 10900 8200
+F 0 "R?" V 10950 8050 50  0000 C CNN
+F 1 "10k" V 10795 8200 50  0001 C CNN
+F 2 "" H 10900 8200 50  0001 C CNN
+F 3 "~" H 10900 8200 50  0001 C CNN
+	1    10900 8200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D817523
+P 10900 7900
+F 0 "#PWR?" H 10900 7750 50  0001 C CNN
+F 1 "+5V" V 10915 8028 50  0000 L CNN
+F 2 "" H 10900 7900 50  0001 C CNN
+F 3 "" H 10900 7900 50  0001 C CNN
+	1    10900 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D817529
+P 10200 7900
+F 0 "#PWR?" H 10200 7750 50  0001 C CNN
+F 1 "+3.3V" V 10215 8028 50  0000 L CNN
+F 2 "" H 10200 7900 50  0001 C CNN
+F 3 "" H 10200 7900 50  0001 C CNN
+	1    10200 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 8350 10200 8350
+Wire Wire Line
+	10200 8300 10200 8350
+Connection ~ 10200 8350
+Wire Wire Line
+	10200 8350 10000 8350
+Wire Wire Line
+	10200 8000 10200 8100
+Wire Wire Line
+	10750 8350 10900 8350
+Wire Wire Line
+	10900 8300 10900 8350
+Connection ~ 10900 8350
+Wire Wire Line
+	10900 8350 11100 8350
+Wire Wire Line
+	10550 8050 10550 8000
+Wire Wire Line
+	10550 8000 10200 8000
+Connection ~ 10200 8000
+Wire Wire Line
+	10200 7900 10200 8000
+Wire Wire Line
+	10900 7900 10900 8100
+Text GLabel 10000 8350 0    50   Input ~ 0
+GPIO16
+Text GLabel 11100 8350 2    50   Input ~ 0
+GPIO16_5
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D83D603
+P 10550 6350
+F 0 "Q?" V 10801 6350 50  0000 C CNN
+F 1 "BSS138" V 10892 6350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10750 6275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10550 6350 50  0001 L CNN
+	1    10550 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D83D60D
+P 10200 6300
+F 0 "R?" V 10250 6150 50  0000 C CNN
+F 1 "10k" V 10095 6300 50  0001 C CNN
+F 2 "" H 10200 6300 50  0001 C CNN
+F 3 "~" H 10200 6300 50  0001 C CNN
+	1    10200 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D83D617
+P 10900 6300
+F 0 "R?" V 10950 6150 50  0000 C CNN
+F 1 "10k" V 10795 6300 50  0001 C CNN
+F 2 "" H 10900 6300 50  0001 C CNN
+F 3 "~" H 10900 6300 50  0001 C CNN
+	1    10900 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D83D621
+P 10900 6000
+F 0 "#PWR?" H 10900 5850 50  0001 C CNN
+F 1 "+5V" V 10915 6128 50  0000 L CNN
+F 2 "" H 10900 6000 50  0001 C CNN
+F 3 "" H 10900 6000 50  0001 C CNN
+	1    10900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D83D62B
+P 10200 6000
+F 0 "#PWR?" H 10200 5850 50  0001 C CNN
+F 1 "+3.3V" V 10215 6128 50  0000 L CNN
+F 2 "" H 10200 6000 50  0001 C CNN
+F 3 "" H 10200 6000 50  0001 C CNN
+	1    10200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 6450 10200 6450
+Wire Wire Line
+	10200 6400 10200 6450
+Connection ~ 10200 6450
+Wire Wire Line
+	10200 6450 10000 6450
+Wire Wire Line
+	10200 6100 10200 6200
+Wire Wire Line
+	10750 6450 10900 6450
+Wire Wire Line
+	10900 6400 10900 6450
+Connection ~ 10900 6450
+Wire Wire Line
+	10900 6450 11100 6450
+Wire Wire Line
+	10550 6150 10550 6100
+Wire Wire Line
+	10550 6100 10200 6100
+Connection ~ 10200 6100
+Wire Wire Line
+	10200 6000 10200 6100
+Wire Wire Line
+	10900 6000 10900 6200
+Text GLabel 10000 6450 0    50   Input ~ 0
+GPIO14
+Text GLabel 11100 6450 2    50   Input ~ 0
+GPIO14_5
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D83D645
+P 10550 7300
+F 0 "Q?" V 10801 7300 50  0000 C CNN
+F 1 "BSS138" V 10892 7300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10750 7225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10550 7300 50  0001 L CNN
+	1    10550 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D83D64F
+P 10200 7250
+F 0 "R?" V 10250 7100 50  0000 C CNN
+F 1 "10k" V 10095 7250 50  0001 C CNN
+F 2 "" H 10200 7250 50  0001 C CNN
+F 3 "~" H 10200 7250 50  0001 C CNN
+	1    10200 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D83D659
+P 10900 7250
+F 0 "R?" V 10950 7100 50  0000 C CNN
+F 1 "10k" V 10795 7250 50  0001 C CNN
+F 2 "" H 10900 7250 50  0001 C CNN
+F 3 "~" H 10900 7250 50  0001 C CNN
+	1    10900 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D83D663
+P 10900 6950
+F 0 "#PWR?" H 10900 6800 50  0001 C CNN
+F 1 "+5V" V 10915 7078 50  0000 L CNN
+F 2 "" H 10900 6950 50  0001 C CNN
+F 3 "" H 10900 6950 50  0001 C CNN
+	1    10900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D83D66D
+P 10200 6950
+F 0 "#PWR?" H 10200 6800 50  0001 C CNN
+F 1 "+3.3V" V 10215 7078 50  0000 L CNN
+F 2 "" H 10200 6950 50  0001 C CNN
+F 3 "" H 10200 6950 50  0001 C CNN
+	1    10200 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 7400 10200 7400
+Wire Wire Line
+	10200 7350 10200 7400
+Connection ~ 10200 7400
+Wire Wire Line
+	10200 7400 10000 7400
+Wire Wire Line
+	10200 7050 10200 7150
+Wire Wire Line
+	10750 7400 10900 7400
+Wire Wire Line
+	10900 7350 10900 7400
+Connection ~ 10900 7400
+Wire Wire Line
+	10900 7400 11100 7400
+Wire Wire Line
+	10550 7100 10550 7050
+Wire Wire Line
+	10550 7050 10200 7050
+Connection ~ 10200 7050
+Wire Wire Line
+	10200 6950 10200 7050
+Wire Wire Line
+	10900 6950 10900 7150
+Text GLabel 10000 7400 0    50   Input ~ 0
+GPIO25
+Text GLabel 11100 7400 2    50   Input ~ 0
+GPIO25_5
 $EndSCHEMATC
