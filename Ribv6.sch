@@ -93,17 +93,6 @@ F 3 "~" H 7350 2650 50  0001 C CNN
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x19 J?
-U 1 1 5D0B2089
-P 7900 2650
-F 0 "J?" H 7980 2692 50  0000 L CNN
-F 1 "Conn_01x19" H 7980 2601 50  0000 L CNN
-F 2 "" H 7900 2650 50  0001 C CNN
-F 3 "~" H 7900 2650 50  0001 C CNN
-	1    7900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x19 J?
 U 1 1 5D0B4095
 P 1350 5000
 F 0 "J?" H 1430 5042 50  0000 L CNN
@@ -2885,4 +2874,130 @@ F 3 "~" H 6800 2650 50  0001 C CNN
 	1    6800 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Counter_Clockwise J?
+U 1 1 5DE88C67
+P 13750 7300
+F 0 "J?" H 13800 7625 50  0000 C CNN
+F 1 "Conn_02x06_Counter_Clockwise" H 13800 7626 50  0001 C CNN
+F 2 "" H 13750 7300 50  0001 C CNN
+F 3 "~" H 13750 7300 50  0001 C CNN
+	1    13750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5DE8C448
+P 13150 7300
+F 0 "J?" H 13230 7246 50  0000 L CNN
+F 1 "Conn_01x06" H 13230 7201 50  0001 L CNN
+F 2 "" H 13150 7300 50  0001 C CNN
+F 3 "~" H 13150 7300 50  0001 C CNN
+	1    13150 7300
+	1    0    0    -1  
+$EndComp
+Text GLabel 12850 7100 0    50   Input ~ 0
+GPIO19_5
+Text GLabel 12850 7200 0    50   Input ~ 0
+GPIO18_5
+Text GLabel 12850 7300 0    50   Input ~ 0
+GPIO17_5
+Text GLabel 12850 7400 0    50   Input ~ 0
+GPIO16_5
+Text GLabel 12850 7500 0    50   Input ~ 0
+GPIO25_5
+Text GLabel 12850 7600 0    50   Input ~ 0
+GPIO14_5
+$Comp
+L power:+5V #PWR?
+U 1 1 5DEC6CBD
+P 13500 6800
+F 0 "#PWR?" H 13500 6650 50  0001 C CNN
+F 1 "+5V" V 13515 6928 50  0000 L CNN
+F 2 "" H 13500 6800 50  0001 C CNN
+F 3 "" H 13500 6800 50  0001 C CNN
+	1    13500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEC70E9
+P 14200 7750
+F 0 "#PWR?" H 14200 7500 50  0001 C CNN
+F 1 "GND" H 14205 7577 50  0000 C CNN
+F 2 "" H 14200 7750 50  0001 C CNN
+F 3 "" H 14200 7750 50  0001 C CNN
+	1    14200 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 7100 14200 7100
+Wire Wire Line
+	14200 7100 14200 7200
+Wire Wire Line
+	14050 7200 14200 7200
+Connection ~ 14200 7200
+Wire Wire Line
+	14200 7200 14200 7300
+Wire Wire Line
+	14050 7300 14200 7300
+Connection ~ 14200 7300
+Wire Wire Line
+	14200 7300 14200 7400
+Wire Wire Line
+	14050 7400 14200 7400
+Connection ~ 14200 7400
+Wire Wire Line
+	14200 7400 14200 7500
+Wire Wire Line
+	14050 7500 14200 7500
+Connection ~ 14200 7500
+Wire Wire Line
+	14200 7500 14200 7600
+Wire Wire Line
+	14050 7600 14200 7600
+Connection ~ 14200 7600
+Wire Wire Line
+	14200 7600 14200 7750
+Wire Wire Line
+	13500 6800 13500 7100
+Wire Wire Line
+	13500 7600 13550 7600
+Wire Wire Line
+	13550 7500 13500 7500
+Connection ~ 13500 7500
+Wire Wire Line
+	13500 7500 13500 7600
+Wire Wire Line
+	13550 7400 13500 7400
+Connection ~ 13500 7400
+Wire Wire Line
+	13500 7400 13500 7500
+Wire Wire Line
+	13550 7300 13500 7300
+Connection ~ 13500 7300
+Wire Wire Line
+	13500 7300 13500 7400
+Wire Wire Line
+	13550 7200 13500 7200
+Connection ~ 13500 7200
+Wire Wire Line
+	13500 7200 13500 7300
+Wire Wire Line
+	13550 7100 13500 7100
+Connection ~ 13500 7100
+Wire Wire Line
+	13500 7100 13500 7200
+Wire Wire Line
+	12950 7100 12850 7100
+Wire Wire Line
+	12950 7200 12850 7200
+Wire Wire Line
+	12950 7300 12850 7300
+Wire Wire Line
+	12950 7400 12850 7400
+Wire Wire Line
+	12950 7500 12850 7500
+Wire Wire Line
+	12950 7600 12850 7600
 $EndSCHEMATC
