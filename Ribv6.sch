@@ -2936,50 +2936,6 @@ F 3 "~" H 2800 2400 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J14
-U 1 1 5D2CCA21
-P 4750 5100
-F 0 "J14" V 4754 5480 50  0000 L CNN
-F 1 "Conn_02x07_Odd_Even" V 4845 5480 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 4750 5100 50  0001 C CNN
-F 3 "~" H 4750 5100 50  0001 C CNN
-	1    4750 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J15
-U 1 1 5D2CF2B8
-P 4750 5800
-F 0 "J15" V 4754 6180 50  0000 L CNN
-F 1 "Conn_02x07_Odd_Even" V 4845 6180 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 4750 5800 50  0001 C CNN
-F 3 "~" H 4750 5800 50  0001 C CNN
-	1    4750 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J18
-U 1 1 5D2D00A2
-P 5700 5800
-F 0 "J18" V 5704 6180 50  0000 L CNN
-F 1 "Conn_02x07_Odd_Even" V 5795 6180 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 5700 5800 50  0001 C CNN
-F 3 "~" H 5700 5800 50  0001 C CNN
-	1    5700 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J17
-U 1 1 5D2D07AF
-P 5700 5100
-F 0 "J17" V 5704 5480 50  0000 L CNN
-F 1 "Conn_02x07_Odd_Even" V 5795 5480 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 5700 5100 50  0001 C CNN
-F 3 "~" H 5700 5100 50  0001 C CNN
-	1    5700 5100
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x06_Odd_Even J23
 U 1 1 5D2D1A00
 P 13750 7300
@@ -3370,10 +3326,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 3350 7150 3350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5E6EBC12
 P 6200 2350
-F 0 "#PWR?" H 6200 2100 50  0001 C CNN
+F 0 "#PWR0103" H 6200 2100 50  0001 C CNN
 F 1 "GND" H 6205 2177 50  0000 C CNN
 F 2 "" H 6200 2350 50  0001 C CNN
 F 3 "" H 6200 2350 50  0001 C CNN
@@ -3388,4 +3344,48 @@ Wire Wire Line
 Wire Wire Line
 	6200 2350 6250 2350
 Connection ~ 6250 2350
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J14
+U 1 1 5E89524A
+P 4650 5100
+F 0 "J14" V 4654 5280 50  0000 L CNN
+F 1 "Conn_02x04_Odd_Even" V 4745 5280 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 4650 5100 50  0001 C CNN
+F 3 "~" H 4650 5100 50  0001 C CNN
+	1    4650 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J15
+U 1 1 5E898337
+P 4650 5800
+F 0 "J15" V 4654 5980 50  0000 L CNN
+F 1 "Conn_02x04_Odd_Even" V 4745 5980 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 4650 5800 50  0001 C CNN
+F 3 "~" H 4650 5800 50  0001 C CNN
+	1    4650 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J17
+U 1 1 5E898AE7
+P 5600 5100
+F 0 "J17" V 5604 5280 50  0000 L CNN
+F 1 "Conn_02x04_Odd_Even" V 5695 5280 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 5600 5100 50  0001 C CNN
+F 3 "~" H 5600 5100 50  0001 C CNN
+	1    5600 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J18
+U 1 1 5E899727
+P 5600 5800
+F 0 "J18" V 5604 5980 50  0000 L CNN
+F 1 "Conn_02x04_Odd_Even" V 5695 5980 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 5600 5800 50  0001 C CNN
+F 3 "~" H 5600 5800 50  0001 C CNN
+	1    5600 5800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
