@@ -2750,17 +2750,17 @@ F 3 "~" H 13150 7300 50  0001 C CNN
 	1    13150 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 12850 7100 0    50   Input ~ 0
+Text GLabel 12850 7500 0    50   Input ~ 0
 GPIO19_5
-Text GLabel 12850 7200 0    50   Input ~ 0
-GPIO18_5
 Text GLabel 12850 7300 0    50   Input ~ 0
+GPIO18_5
+Text GLabel 12850 7600 0    50   Input ~ 0
 GPIO17_5
 Text GLabel 12850 7400 0    50   Input ~ 0
 GPIO16_5
-Text GLabel 12850 7500 0    50   Input ~ 0
+Text GLabel 12850 7200 0    50   Input ~ 0
 GPIO25_5
-Text GLabel 12850 7600 0    50   Input ~ 0
+Text GLabel 12850 7100 0    50   Input ~ 0
 GPIO14_5
 $Comp
 L power:+5V #PWR0170
@@ -3124,7 +3124,7 @@ Connection ~ 5100 2950
 Wire Wire Line
 	5100 2950 4700 2950
 Wire Wire Line
-	4700 3050 5100 3050
+	4700 3050 4750 3050
 Connection ~ 5100 3050
 Wire Wire Line
 	5100 3050 5200 3050
@@ -3388,4 +3388,29 @@ F 3 "~" H 5600 5800 50  0001 C CNN
 	1    5600 5800
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+3.3VA #PWR0173
+U 1 1 5EAA9673
+P 5200 1750
+F 0 "#PWR0173" H 5200 1600 50  0001 C CNN
+F 1 "+3.3VA" H 5215 1923 50  0000 C CNN
+F 2 "" H 5200 1750 50  0001 C CNN
+F 3 "" H 5200 1750 50  0001 C CNN
+	1    5200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EAFEC4A
+P 4750 3050
+F 0 "#PWR?" H 4750 2800 50  0001 C CNN
+F 1 "GND" H 4755 2877 50  0000 C CNN
+F 2 "" H 4750 3050 50  0001 C CNN
+F 3 "" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 4750 3050
+Wire Wire Line
+	4750 3050 5100 3050
 $EndSCHEMATC
