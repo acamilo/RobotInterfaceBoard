@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 110)
+    (drawings 114)
     (tracks 877)
     (zones 0)
     (modules 95)
@@ -4243,6 +4243,18 @@
     )
   )
 
+  (gr_text GND (at 123 51.6 90) (layer F.SilkS) (tstamp 5E22222F)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text +B (at 91.6 37.2) (layer F.SilkS) (tstamp 5E222220)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text GND (at 159.8 40.6) (layer F.SilkS) (tstamp 5E2221C3)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text +B (at 130 43.4) (layer F.SilkS) (tstamp 5E2221C3)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "L Bank Pow Select" (at 99.75 77.5) (layer F.SilkS) (tstamp 5DB30C98)
     (effects (font (size 1 1) (thickness 0.15)))
   )
